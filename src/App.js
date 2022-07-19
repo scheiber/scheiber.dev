@@ -1,25 +1,20 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Jonathan Scheiber</p>
+        <h1>Jonathan Scheiber</h1>
         <a
           className="App-link"
           href="https://www.linkedin.com/in/jonscheiber"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
         <a
           className="App-link"
           href="https://github.com/scheiber"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           GitHub
         </a>
