@@ -28,8 +28,28 @@ h2 {
 }
 
 body {
-  background-image: url("./images/tile.png");
-  background-repeat: repeat-x-y;
+  background: linear-gradient(
+    -45deg,
+    rgba(2, 0, 36, 1),
+    rgba(1, 59, 110, 1),
+    rgba(0, 109, 204, 1),
+    rgb(216, 224, 232)
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .App-header {
