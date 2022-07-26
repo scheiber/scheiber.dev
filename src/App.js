@@ -6,16 +6,21 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Jonathan Scheiber</h1>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/jonscheiber"
-        >
+        <h2 className="tagline">
+          Pursuit Fellow
+          <br />
+          Full-Stack Web Developer
+          <br />
+          CompTIA A+ Certified IT Professional
+          <br />
+          Cybersecurity Evangelist
+          <br />
+          Accessibility Advocate
+        </h2>
+        <a className="link" href="https://www.linkedin.com/in/jonscheiber">
           LinkedIn
         </a>
-        <a
-          className="App-link"
-          href="https://github.com/scheiber"
-        >
+        <a className="link" href="https://github.com/scheiber">
           GitHub
         </a>
       </header>
