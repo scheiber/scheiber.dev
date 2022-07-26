@@ -1,17 +1,25 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-
 .App {
   text-align: center;
 }
 
 h1 {
-  font-family: "Josefin Sans";
+  font-family: "ChunkFive";
   font-size: 100px;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ChunkFive";
+  src: local("ChunkFive-Regular"),
+    url(./fonts/ChunkFive-Regular.otf) format("opentype");
+}
+
+body {
+  background-image: url("./images/tile.png");
+  background-repeat: repeat-x-y;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
