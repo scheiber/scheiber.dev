@@ -21,6 +21,11 @@ h2 {
   margin-right: 15%;
 }
 
+.title {
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
 @font-face {
   font-family: "ChunkFive";
   src: local("ChunkFive-Regular"),
@@ -73,4 +78,13 @@ a {
 
 a:hover {
   color: white;
+}
+
+@media (max-width: 767px) {
+  .name {
+    font-size: 50px;
+  }
+  .tagline {
+    font-size: 25px;
+  }
 }
