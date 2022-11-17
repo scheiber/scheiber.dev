@@ -1,24 +1,16 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Affirmations from "./pages/Affirmations";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="name">Jonathan Scheiber</h1>
-        <h2 className="tagline">
-          <p className="title">Pursuit Fellow</p>
-          <p className="title">Full-Stack Web Developer</p>
-          <p className="title">CompTIA A+ Certified IT Professional</p>
-          <p className="title">Cybersecurity Evangelist</p>
-          <p className="title">Accessibility Advocate</p>
-        </h2>
-        <a className="link" href="https://www.linkedin.com/in/jonscheiber">
-          LinkedIn
-        </a>
-        <a className="link" href="https://github.com/scheiber">
-          GitHub
-        </a>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/affirmations" element={<Affirmations />} />
+        </Routes>
       </header>
     </div>
   );

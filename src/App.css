@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-h1 {
+.name {
   font-family: "ChunkFive";
   font-size: 100px;
   font-weight: normal;
@@ -10,7 +10,7 @@ h1 {
   margin-block-start: 0px;
 }
 
-h2 {
+.title {
   font-family: "ChunkFive";
   font-size: 40px;
   font-weight: normal;
@@ -26,10 +26,16 @@ h2 {
   margin-block-end: 5px;
 }
 
+/* Fonts */
+
 @font-face {
   font-family: "ChunkFive";
-  src: local("ChunkFive-Regular"),
-    url(./fonts/ChunkFive-Regular.otf) format("opentype");
+  src: url(./fonts/ChunkFive-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Phosphat";
+  src: url(./fonts/PhosphatePro-Inline.otf) format("opentype");
 }
 
 body {

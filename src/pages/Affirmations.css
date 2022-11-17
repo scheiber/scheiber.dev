@@ -1,0 +1,40 @@
+.affirmations {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.affirmation {
+  color: #138dff;
+  font-size: 125px;
+  font-family: "Phosphate";
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: normal;
+  line-height: 100%;
+}
+
+.another {
+  background-color: #138dff;
+  font-family: "Phosphate";
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 5px;
+  width: 250px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.another:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
