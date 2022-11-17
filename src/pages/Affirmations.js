@@ -3,7 +3,7 @@ import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const affirmations = require("../components/AffirmationsList").default;
 const i = Math.floor(Math.random() * affirmations.length);
-console.log(`This is affirmation number ${i} out of ${affirmations.length}.`);
+// console.log(`This is affirmation number ${i} out of ${affirmations.length}.`);
 
 const refreshPage = () => {
   window.location.reload();

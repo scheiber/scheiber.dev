@@ -38,3 +38,9 @@
   background-color: #e7e7e7;
   color: black;
 }
+
+@media (max-width: 767px) {
+  .affirmation {
+    font-size: 50px;
+  }
+}
