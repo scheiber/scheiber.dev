@@ -17,9 +17,6 @@ const Home = () => (
       <a className="link" href="https://github.com/scheiber">
         GitHub
       </a>
-      <a rel="me" className="link" href="https://qoto.org/@jon">
-        Mastodon
-      </a>
     </header>
   </div>
 );
