@@ -1,0 +1,28 @@
+const affirmations = [
+  "Grind it out.",
+  "This is a means to an end.",
+  "Programming isn't about what you know. It's about what you can figure out.",
+  "We are what we believe we are.",
+  "Be greater.",
+  "Be your own hero.",
+  "The only limit is yourself.",
+  "It's never too late to be the person you want to be. You need to choose the life you want.",
+  "Nobody in life gets exactly what they thought they were going to get. But if you work really hard and you're kind, amazing things will happen.",
+  "You can't stop the waves, but you can learn how to surf.",
+  "A thing is a thing, not what is said of that thing.",
+  "You have the power to be your best.",
+  "Luck is when preparation meets opportunity.",
+  "You may delay, but time will not.",
+  "It is never too late to be what you might have been.",
+  "Adventure may hurt you, but monotony will kill you.",
+  "Either I will find a way, or I will make one.",
+  "Your life does not get better by chance. It gets better by change.",
+  "Time's arrow neither stands still nor reverses. It merely marches forward.",
+  "Do it for you. No one else.",
+  "It gets easier. Every day it gets a little easier.",
+  "Opportunities don't happen, you create them.",
+  "Do not fear failure. Fear not trying.",
+  "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+];
+
+export default affirmations;
