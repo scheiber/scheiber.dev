@@ -31,6 +31,9 @@ const affirmations = [
   "Your life does not get better by chance. It gets better by change.",
   "Time's arrow neither stands still nor reverses. It merely marches forward.",
   "Do it for you. No one else.",
+  "Birth is a curse, and existence is a prison.",
+  "Every existing thing is born without reason, prolongs itself out of weakness, and dies by chance.",
+  "Tomorrow the sun will rise.",
 ];
 
 export default affirmations;

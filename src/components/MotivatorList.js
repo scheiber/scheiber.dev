@@ -23,6 +23,7 @@ const affirmations = [
   "Opportunities don't happen, you create them.",
   "Do not fear failure. Fear not trying.",
   "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+  "Tomrrow is another day.",
 ];
 
 export default affirmations;
