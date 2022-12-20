@@ -23,7 +23,7 @@ const Portfolio = () => (
           <img
             className="thumbnail"
             alt="Worth a Shot logo"
-            src="./images/worthashot.png"
+            src="./images/thumbnails/worthashot.png"
           />
         </a>
         <a
@@ -45,7 +45,7 @@ const Portfolio = () => (
           <img
             className="thumbnail"
             alt="Worth a Shot logo"
-            src="./images/saucesource.png"
+            src="./images/thumbnails/saucesource.png"
           />
         </a>
         <a
