@@ -1,0 +1,34 @@
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 2em 2em;
+  justify-content: center;
+  justify-items: center;
+}
+
+.portfolio a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio a:hover {
+  color: rgb(0, 157, 255);
+}
+
+.portfolio-grid a {
+  color: rgb(130, 211, 254);
+}
+
+.portfolio-grid a:hover {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .thumbnail {
+    width: 400px;
+  }
+}

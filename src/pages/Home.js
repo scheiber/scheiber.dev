@@ -11,12 +11,27 @@ const Home = () => (
         <p className="title">Cybersecurity Evangelist</p>
         <p className="title">Accessibility Advocate</p>
       </h2>
-      <a className="link" href="https://www.linkedin.com/in/jonscheiber">
-        LinkedIn
-      </a>
-      <a className="link" href="https://github.com/scheiber">
-        GitHub
-      </a>
+      <section className="links">
+        <a className="link" href="/portfolio">
+          Portfolio
+        </a>
+        <a
+          className="link"
+          href="https://www.linkedin.com/in/jonscheiber"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a
+          className="link"
+          href="https://github.com/scheiber"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </section>
     </header>
   </div>
 );
