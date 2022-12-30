@@ -21,9 +21,9 @@ const Error = () => (
           The page you are looking for might have been removed, had its named
           changed, or is temporarily unavailable.
         </p>
-        <p>
-          <a href="/">Click here</a> to go back home.
-        </p>
+        <a href="/">
+          <button className="big-blue-button">Go home</button>
+        </a>
       </div>
     </div>
   </div>

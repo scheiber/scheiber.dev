@@ -15,7 +15,7 @@
 
 .error-title {
   font-weight: normal;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .error-text {
@@ -45,7 +45,7 @@
     height: 300px;
   }
   .error-title {
-    font-size: 50px;
+    font-size: 65px;
   }
   .error-text {
     font-size: 30px;
