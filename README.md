@@ -1,5 +1,9 @@
-# Scheiber.dev
+# Scheiber.dev<!-- omit from toc -->
 
-## Jonathan Scheiber's Portfolio Website
+## Table of Contents <!-- omit from toc -->
+
+- [About](#about)
+
+## About
 
 This is the repo for Jonathan Scheiber's portfolio website.

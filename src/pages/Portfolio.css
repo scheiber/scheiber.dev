@@ -24,11 +24,49 @@
   color: white;
 }
 
+.project-button {
+  background-color: #138dff;
+  font-family: "ChunkFive";
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 5px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.project-button:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .project-button {
+    font-size: 25px;
+    width: 200px;
+  }
+}
+
 @media (max-width: 767px) {
   .portfolio-grid {
     grid-template-columns: repeat(1, 1fr);
   }
   .thumbnail {
     width: 400px;
+  }
+  .project-button {
+    font-size: 20px;
+    width: 150px;
+    padding: 10px 10px;
   }
 }

@@ -12,9 +12,21 @@ const Home = () => (
         <p className="title">Accessibility Advocate</p>
       </h2>
       <section className="links">
-        <article className="link">
-          <a href="/portfolio">Portfolio</a>
-        </article>
+        <div>
+          <a href="/about">
+            <button className="big-blue-button">Read more</button>
+          </a>
+        </div>
+        <div>
+          <a href="/portfolio">
+            <button className="big-blue-button">See my work</button>
+          </a>
+        </div>
+        <div>
+          <a href="mailto:jonathan@scheiber.dev">
+            <button className="big-blue-button">Contact me</button>
+          </a>
+        </div>
         <article>
           <a
             href="https://github.com/Scheiber"
