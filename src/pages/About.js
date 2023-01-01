@@ -31,13 +31,21 @@ const About = () => (
         to date with the latest trends in web development.
       </p>
       <p>
-        In my free time, I enjoy participating in hackathons and tinkering with
-        new technologies. I am confident in my ability to deliver high-quality,
-        scalable solutions.
+        I am proficient in both front-end and back-end development, and have a
+        deep understanding of web development principles and best practices.
+        Whether it's building responsive websites, creating robust APIs, or
+        implementing database systems, I have the skills and experience to
+        deliver high-quality and scalable solutions.
+      </p>
+      <p>
+        In my free time, I enjoy staying up-to-date with the latest web
+        development trends and technologies, and love to explore new frameworks
+        and libraries. I am also an avid learner and am always looking for ways
+        to improve my skills and knowledge.
       </p>
       <p>
         If you have a project in mind or are looking for a reliable developer to
-        join your team, please don't hesitate to reach out to me. Fell free to
+        join your team, please don't hesitate to reach out to me. Feel free to
         take a look at <a href="/portfolio">my portfolio</a> to see samples of
         my work. Thank you for visiting.
       </p>

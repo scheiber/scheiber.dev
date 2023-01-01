@@ -30,6 +30,7 @@ p {
   line-height: 1.5;
   margin-block-start: 10px;
   margin-block-end: 10px;
+  font-family: "Montserrat";
 }
 
 .title {
@@ -56,6 +57,11 @@ p {
 @font-face {
   font-family: "Phosphate";
   src: url(./fonts/Phosphate-Inline.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-Medium.otf) format("opentype");
 }
 
 body {
@@ -133,10 +139,6 @@ a .name {
     font-size: 30px;
     margin-block-start: 20px;
     margin-block-end: 20px;
-  }
-  p {
-    margin-block-start: 5px;
-    margin-block-end: 5px;
   }
 }
 
