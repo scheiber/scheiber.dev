@@ -9,9 +9,16 @@ import Error from "./pages/Error";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="app">
+    <div className="app" data-aos="fade-down">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

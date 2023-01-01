@@ -1,7 +1,7 @@
 import "./Home.css";
 
 const Home = () => (
-  <div>
+  <div className="home">
     <h2 className="tagline">
       <p className="title">Pursuit Fellow</p>
       <p className="title">Full-Stack Web Developer</p>
