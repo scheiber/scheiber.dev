@@ -63,6 +63,7 @@ h1 {
 
 html {
   min-height: 100%;
+  background-color: #000;
 }
 
 body {
@@ -77,6 +78,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overscroll-behavior-y: none;
 }
 
 .big-blue-button {
@@ -127,6 +129,9 @@ a:hover {
     font-size: 30px;
     margin-block-start: 20px;
     margin-block-end: 20px;
+  }
+  body {
+    background-attachment: scroll;
   }
 }
 
