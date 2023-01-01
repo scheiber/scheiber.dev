@@ -114,35 +114,6 @@ const Portfolio = () => (
         </div>
       </article>
     </section>
-    <section>
-      <div>
-        <a href="mailto:jonathan@scheiber.dev">
-          <button className="big-blue-button">Contact me</button>
-        </a>
-      </div>
-      <article>
-        <a href="https://github.com/Scheiber" target="_blank" rel="noreferrer">
-          <img
-            className="icon"
-            alt="GitHub"
-            title="GitHub"
-            src="./images/icons/github.png"
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jonscheiber/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="icon"
-            alt="LinkedIn"
-            title="LinkedIn"
-            src="./images/icons/linkedin.png"
-          />
-        </a>
-      </article>
-    </section>
   </div>
 );
 

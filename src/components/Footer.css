@@ -1,0 +1,12 @@
+.footer-text {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 20px;
+  margin: 10px;
+}
+
+@media (max-width: 767px) {
+  .footer-text {
+    font-size: 15px;
+  }
+}

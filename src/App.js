@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Affirmations from "./pages/Affirmations";
 import Motivator from "./pages/Motivator";
 import Error from "./pages/Error";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,12 +16,14 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/work" element={<Navigate to="/portfolio" />} />
+        <Route path="/projects" element={<Navigate to="/portfolio" />} />
         <Route path="/github" element={<GitHub />} />
         <Route path="/linkedin" element={<LinkedIn />} />
         <Route path="/affirmations" element={<Affirmations />} />
         <Route path="/motivator" element={<Motivator />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
