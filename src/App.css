@@ -1,5 +1,10 @@
-.App {
+.app {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
 }
 
 .name {
@@ -22,7 +27,9 @@
 }
 
 p {
-  line-height: 1.4;
+  line-height: 1.5;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
 }
 
 .title {
@@ -51,10 +58,6 @@ p {
   src: url(./fonts/Phosphate-Inline.otf) format("opentype");
 }
 
-/* body {
-  background-color: #010048;
-} */
-
 body {
   background: linear-gradient(
     0deg,
@@ -65,37 +68,28 @@ body {
   );
 }
 
-/* body {
-  background: linear-gradient(
-    -45deg,
-    rgba(2, 0, 36, 1),
-    rgba(1, 59, 110, 1),
-    rgba(0, 109, 204, 1),
-    rgb(216, 224, 232)
-  );
-  background-size: 400% 400%;
-  animation: gradient 30s ease infinite;
-  height: 100vh;
+/* Buttons */
+
+.big-blue-button {
+  background-color: #138dff;
+  font-family: "ChunkFive";
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: normal;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
+.big-blue-button:hover {
+  background-color: #e7e7e7;
+  color: black;
 }
 
 .link {
@@ -104,13 +98,17 @@ body {
   font-weight: normal;
   padding-bottom: 10px;
 }
-
 a {
   text-decoration: none;
   color: rgb(126, 210, 255);
 }
 
 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a .name {
   color: white;
 }
 
@@ -135,6 +133,10 @@ a:hover {
     font-size: 30px;
     margin-block-start: 20px;
     margin-block-end: 20px;
+  }
+  p {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
   }
 }
 

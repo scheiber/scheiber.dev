@@ -7,18 +7,6 @@
   justify-items: center;
 }
 
-a .name {
-  color: white;
-}
-
-.name-link {
-  text-decoration: none;
-}
-
-a:hover .name {
-  color: rgb(208, 208, 208);
-}
-
 .project-button {
   background-color: #138dff;
   font-family: "ChunkFive";
@@ -44,8 +32,8 @@ a:hover .name {
 
 .portfolio-description {
   font-size: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1099px) {
@@ -56,6 +44,10 @@ a:hover .name {
     font-size: 25px;
     width: 200px;
   }
+  .portfolio-description {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -63,7 +55,7 @@ a:hover .name {
     grid-template-columns: repeat(1, 1fr);
   }
   .thumbnail {
-    width: 400px;
+    width: 350px;
   }
   .project-button {
     font-size: 20px;

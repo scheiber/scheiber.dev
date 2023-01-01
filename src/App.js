@@ -9,20 +9,18 @@ import Error from "./pages/Error";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/work" element={<Navigate to="/portfolio" />} />
-          <Route path="/github" element={<GitHub />} />
-          <Route path="/linkedin" element={<LinkedIn />} />
-          <Route path="/affirmations" element={<Affirmations />} />
-          <Route path="/motivator" element={<Motivator />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-      </header>
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/work" element={<Navigate to="/portfolio" />} />
+        <Route path="/github" element={<GitHub />} />
+        <Route path="/linkedin" element={<LinkedIn />} />
+        <Route path="/affirmations" element={<Affirmations />} />
+        <Route path="/motivator" element={<Motivator />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </div>
   );
 }

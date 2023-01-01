@@ -37,8 +37,9 @@ const About = () => (
       </p>
       <p>
         If you have a project in mind or are looking for a reliable developer to
-        join your team, please don't hesitate to reach out to me. Thank you for
-        visiting.
+        join your team, please don't hesitate to reach out to me. Fell free to
+        take a look at <a href="/portfolio">my portfolio</a> to see samples of
+        my work. Thank you for visiting.
       </p>
     </div>
     <section>
