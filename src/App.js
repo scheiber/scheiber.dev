@@ -6,11 +6,13 @@ import Portfolio from "./pages/Portfolio";
 import Affirmations from "./pages/Affirmations";
 import Motivator from "./pages/Motivator";
 import Error from "./pages/Error";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="app">
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

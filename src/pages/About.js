@@ -8,9 +8,6 @@ const About = () => (
         <title>Jonathan Scheiber | About</title>
       </Helmet>
     </HelmetProvider>
-    <a href="/">
-      <h1 className="name">Jonathan Scheiber</h1>
-    </a>
     <article>
       <img
         className="headshot"

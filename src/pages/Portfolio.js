@@ -8,9 +8,6 @@ const Portfolio = () => (
         <title>Jonathan Scheiber | Portfolio</title>
       </Helmet>
     </HelmetProvider>
-    <a className="name-link" href="/">
-      <h1 className="name">Jonathan Scheiber</h1>
-    </a>
     <h1 className="title">Portfolio</h1>
     <section className="portfolio-grid">
       <article>

@@ -2,7 +2,6 @@ import "./Home.css";
 
 const Home = () => (
   <div>
-    <h1 className="name">Jonathan Scheiber</h1>
     <h2 className="tagline">
       <p className="title">Pursuit Fellow</p>
       <p className="title">Full-Stack Web Developer</p>
