@@ -7,21 +7,16 @@
   justify-items: center;
 }
 
-.portfolio a {
+a .name {
+  color: white;
+}
+
+.name-link {
   text-decoration: none;
-  color: white;
 }
 
-.portfolio a:hover {
+a:hover .name {
   color: rgb(208, 208, 208);
-}
-
-.portfolio-grid a {
-  color: rgb(130, 211, 254);
-}
-
-.portfolio-grid a:hover {
-  color: white;
 }
 
 .project-button {
@@ -45,6 +40,12 @@
 .project-button:hover {
   background-color: #e7e7e7;
   color: black;
+}
+
+.portfolio-description {
+  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1099px) {

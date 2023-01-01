@@ -21,6 +21,10 @@
   margin-right: 15%;
 }
 
+p {
+  line-height: 1.4;
+}
+
 .title {
   margin-block-start: 5px;
   margin-block-end: 5px;
@@ -102,7 +106,8 @@ body {
 }
 
 a {
-  color: #61dafb;
+  text-decoration: none;
+  color: rgb(126, 210, 255);
 }
 
 a:hover {
