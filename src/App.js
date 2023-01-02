@@ -3,6 +3,8 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Now from "./pages/Now";
 import Affirmations from "./pages/Affirmations";
 import Motivator from "./pages/Motivator";
 import Error from "./pages/Error";
@@ -22,14 +24,26 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+
+        {/* Pages */}
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/now" element={<Now />} />
+
+        {/* Internal Redirects */}
         <Route path="/work" element={<Navigate to="/portfolio" />} />
         <Route path="/projects" element={<Navigate to="/portfolio" />} />
+
+        {/* External Redirects */}
         <Route path="/github" element={<GitHub />} />
         <Route path="/linkedin" element={<LinkedIn />} />
+
+        {/* Side Projects */}
         <Route path="/affirmations" element={<Affirmations />} />
         <Route path="/motivator" element={<Motivator />} />
+
+        {/* 404 Page */}
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

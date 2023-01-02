@@ -2,7 +2,7 @@ import "./About.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const About = () => (
-  <div className="portfolio">
+  <div className="about">
     <HelmetProvider>
       <Helmet>
         <title>Jonathan Scheiber | About</title>

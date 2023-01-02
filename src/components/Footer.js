@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div>
-        <a href="mailto:jonathan@scheiber.dev">
+        <a href="/contact">
           <button className="big-blue-button">Contact me</button>
         </a>
       </div>
