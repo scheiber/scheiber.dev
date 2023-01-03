@@ -19,8 +19,8 @@ const About = () => (
         I love getting to know people from around the world and in every
         industry.
         <p>
-          There's need to ask a question, simply tell me where you are and what
-          you’re working on.
+          There's no need to ask a question, simply tell me where you are and what
+          you're working on.
         </p>
       </p>
       <p>

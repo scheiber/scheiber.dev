@@ -5,7 +5,7 @@ const About = () => (
   <div className="now">
     <HelmetProvider>
       <Helmet>
-        <title>Jonathan Scheiber | Contact</title>
+        <title>Jonathan Scheiber | Now</title>
       </Helmet>
     </HelmetProvider>
     <h1 className="title">Now</h1>
