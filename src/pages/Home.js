@@ -2,20 +2,18 @@ import "./Home.css";
 
 const Home = () => (
   <div className="home">
-    <h2 className="tagline">
-      <p className="title">Pursuit Fellow</p>
-      <p className="title">Full-Stack Web Developer</p>
-      <p className="title">CompTIA A+ Certified IT Professional</p>
-      <p className="title">Cybersecurity Evangelist</p>
-      <p className="title">Accessibility Advocate</p>
-    </h2>
+    <div className="tagline-box">
+      <p className="tagline">Pursuit Fellow</p>
+      <p className="tagline">Full-Stack Web Developer</p>
+      <p className="tagline">CompTIA A+ Certified IT Professional</p>
+      <p className="tagline">Cybersecurity Evangelist</p>
+      <p className="tagline">Accessibility Advocate</p>
+    </div>
     <section className="links">
       <div>
         <a href="/about">
           <button className="big-blue-button">Read more</button>
         </a>
-      </div>
-      <div>
         <a href="/portfolio">
           <button className="big-blue-button">See my work</button>
         </a>

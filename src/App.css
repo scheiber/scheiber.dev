@@ -7,15 +7,11 @@
   color: white;
 }
 
-.title {
+.title,
+.tagline {
   font-family: "ChunkFive";
   font-size: 40px;
   font-weight: normal;
-}
-
-.tagline {
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 p {
@@ -119,11 +115,6 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-  .tagline {
-    font-size: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
   .title {
     font-size: 30px;
     margin-block-start: 20px;

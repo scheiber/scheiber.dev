@@ -24,10 +24,28 @@ const About = () => (
       </p>
       <p>
         I am skilled in a range of technologies, including JavaScript, HTML,
-        CSS, React, Express, PostgreSQL, APIs, Node.js, Git, Linux, and macOS. I
-        am highly motivated and always looking to improve my skills and stay up
-        to date with the latest trends in web development.
+        CSS, React, Express, PostgreSQL, APIs, Node.js, Git, Figma, Linux, and
+        macOS. I am highly motivated and always looking to improve my skills and
+        stay up to date with the latest trends in web development.
       </p>
+      <h1 className="title">Skills</h1>
+      <div className="skills-grid">
+        <i title="JavsScript" class="devicon devicon-javascript-plain" />
+        <i title="React" class="devicon devicon-react-plain-wordmark" />
+        <i title="HTML5" class="devicon devicon-html5-plain-wordmark" />
+        <i title="CSS3" class="devicon devicon-css3-plain-wordmark" />
+        <i title="Node.js" class="devicon devicon-nodejs-plain-wordmark" />
+        <i title="Express" class="devicon devicon-express-original-wordmark" />
+        <i title="Git" class="devicon devicon-git-plain-wordmark" />
+        <i title="Markdown" class="devicon devicon-markdown-plain" />
+        <i
+          title="PostgreSQL"
+          class="devicon devicon-postgresql-plain-wordmark"
+        />
+        <i title="Adobe Photoshop" class="devicon devicon-photoshop-line" />
+        <i title="Figma" class="devicon devicon-figma-plain" />
+        <i title="Visual Studio Code" class="devicon devicon-vscode-plain" />
+      </div>
       <p>
         I am proficient in both front-end and back-end development, and have a
         deep understanding of web development principles and best practices.
@@ -49,22 +67,6 @@ const About = () => (
         you for visiting.
       </p>
     </div>
-    <h1 className="title">Skills</h1>
-    <div className="skills-grid">
-      <i title="JavsScript" class="devicon devicon-javascript-plain" />
-      <i title="React" class="devicon devicon-react-plain-wordmark" />
-      <i title="HTML5" class="devicon devicon-html5-plain-wordmark" />
-      <i title="CSS3" class="devicon devicon-css3-plain-wordmark" />
-      <i title="Node.js" class="devicon devicon-nodejs-plain-wordmark" />
-      <i title="Express" class="devicon devicon-express-original-wordmark" />
-      <i title="Git" class="devicon devicon-git-plain-wordmark" />
-      <i title="Markdown" class="devicon devicon-markdown-plain" />
-      <i title="PostgreSQL" class="devicon devicon-postgresql-plain-wordmark" />
-      <i title="Adobe Photoshop" class="devicon devicon-photoshop-line" />
-      <i title="Figma" class="devicon devicon-figma-plain" />
-      <i title="Visual Studio Code" class="devicon devicon-vscode-plain" />
-    </div>
-
     <section>
       <div>
         <a href="/portfolio">
