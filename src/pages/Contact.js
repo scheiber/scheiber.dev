@@ -18,10 +18,10 @@ const About = () => (
       <p>
         I love getting to know people from around the world and in every
         industry.
-        <p>
-          There's no need to ask a question, simply tell me where you are and what
-          you're working on.
-        </p>
+      </p>
+      <p>
+        There's no need to ask a question, simply tell me where you are and what
+        you're working on.
       </p>
       <p>
         <strong>I try to reply to all.</strong>
