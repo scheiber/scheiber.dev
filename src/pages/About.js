@@ -59,10 +59,10 @@ const About = () => (
       <i title="Express" class="devicon devicon-express-original-wordmark" />
       <i title="Git" class="devicon devicon-git-plain-wordmark" />
       <i title="Markdown" class="devicon devicon-markdown-plain" />
+      <i title="PostgreSQL" class="devicon devicon-postgresql-plain-wordmark" />
       <i title="Adobe Photoshop" class="devicon devicon-photoshop-line" />
       <i title="Figma" class="devicon devicon-figma-plain" />
       <i title="Visual Studio Code" class="devicon devicon-vscode-plain" />
-      <i title="Linux" class="devicon devicon-linux-plain" />
     </div>
 
     <section>
