@@ -15,10 +15,33 @@
   font-size: 20px;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 2em 2em;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.devicon {
+  font-size: 125px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1099px) {
   .about-text {
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .skills-grid {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .devicon {
+    font-size: 80px;
   }
 }
 
@@ -41,5 +64,12 @@
   }
   .about-header {
     font-size: 28px;
+  }
+  .skills-grid {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .devicon {
+    font-size: 60px;
   }
 }

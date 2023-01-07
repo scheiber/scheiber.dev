@@ -1,4 +1,5 @@
 import "./About.css";
+import "../devicon/devicon.min.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const About = () => (
@@ -42,11 +43,28 @@ const About = () => (
       </p>
       <p>
         If you have a project in mind or are looking for a reliable developer to
-        join your team, please don't hesitate to reach out to me. Feel free to
-        take a look at <a href="/portfolio">my portfolio</a> to see samples of
-        my work. Thank you for visiting.
+        join your team, please don't hesitate to{" "}
+        <a href="/contact">reach out to me</a>. Feel free to take a look at{" "}
+        <a href="/portfolio">my portfolio</a> to see samples of my work. Thank
+        you for visiting.
       </p>
     </div>
+    <h1 className="title">Skills</h1>
+    <div className="skills-grid">
+      <i title="JavsScript" class="devicon devicon-javascript-plain" />
+      <i title="React" class="devicon devicon-react-plain-wordmark" />
+      <i title="HTML5" class="devicon devicon-html5-plain-wordmark" />
+      <i title="CSS3" class="devicon devicon-css3-plain-wordmark" />
+      <i title="Node.js" class="devicon devicon-nodejs-plain-wordmark" />
+      <i title="Express" class="devicon devicon-express-original-wordmark" />
+      <i title="Git" class="devicon devicon-git-plain-wordmark" />
+      <i title="Markdown" class="devicon devicon-markdown-plain" />
+      <i title="Adobe Photoshop" class="devicon devicon-photoshop-line" />
+      <i title="Figma" class="devicon devicon-figma-plain" />
+      <i title="Visual Studio Code" class="devicon devicon-vscode-plain" />
+      <i title="Linux" class="devicon devicon-linux-plain" />
+    </div>
+
     <section>
       <div>
         <a href="/portfolio">
