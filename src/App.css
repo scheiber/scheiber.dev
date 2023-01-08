@@ -1,3 +1,26 @@
+::selection {
+  background: #fff;
+  color: #000;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgb(0, 128, 255);
+}
+
 .app {
   text-align: center;
   padding-top: 20px;
@@ -59,7 +82,7 @@ h1 {
 
 html {
   min-height: 100%;
-  /* background-color: #000; */
+  background-color: #000;
 }
 
 body {

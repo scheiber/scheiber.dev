@@ -53,6 +53,7 @@
 @media (max-width: 767px) {
   .portfolio-grid {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0em 0em;
   }
   .thumbnail {
     width: 350px;
@@ -62,10 +63,16 @@
     width: 150px;
     padding: 10px 10px;
   }
+  .portfolio-description {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1400px) {
   .thumbnail {
     width: 500px;
+  }
+  .portfolio-grid {
+    margin: 0em 0em;
   }
 }
