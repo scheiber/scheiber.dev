@@ -11,18 +11,20 @@ const Portfolio = () => (
     <h1 className="title">Portfolio</h1>
     <section className="portfolio-grid">
       <article>
-        <a
-          alt="Link to Worth a Shot"
-          href="http://wshot.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="thumbnail"
-            alt="Worth a Shot logo"
-            src="./images/projects/worthashot.png"
-          />
-        </a>
+        <div className="project-image worthashot-image">
+          <a
+            alt="Link to Worth a Shot"
+            href="http://wshot.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="thumbnail"
+              alt="Worth a Shot logo"
+              src="./images/projects/worthashot.png"
+            />
+          </a>
+        </div>
         <div>
           <p className="portfolio-description">
             In December 2022, I collaborated with a team of two other developers
@@ -64,18 +66,20 @@ const Portfolio = () => (
         </div>
       </article>
       <article>
-        <a
-          alt="Link to SauceSource"
-          href="http://saucesource.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="thumbnail"
-            alt="SauceSource logo"
-            src="./images/projects/saucesource.png"
-          />
-        </a>
+        <div className="saucesource-image project-image">
+          <a
+            alt="Link to SauceSource"
+            href="http://saucesource.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="thumbnail"
+              alt="SauceSource logo"
+              src="./images/projects/saucesource.png"
+            />
+          </a>
+        </div>
         <p className="portfolio-description">
           In September 2022, I developed{" "}
           <a
