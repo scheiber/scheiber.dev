@@ -35,11 +35,11 @@ const About = () => (
         <i title="HTML5" className="devicon devicon-html5-plain-wordmark" />
         <i title="CSS3" className="devicon devicon-css3-plain-wordmark" />
         <i title="Node.js" className="devicon devicon-nodejs-plain-wordmark" />
+        <i title="npm" className="devicon devicon-npm-original-wordmark" />
         <i
           title="Express"
           className="devicon devicon-express-original-wordmark"
         />
-        <i title="Git" className="devicon devicon-git-plain-wordmark" />
         <i title="Markdown" className="devicon devicon-markdown-plain" />
         <i
           title="PostgreSQL"
@@ -51,6 +51,13 @@ const About = () => (
           title="Visual Studio Code"
           className="devicon devicon-vscode-plain"
         />
+        <i title="Git" className="devicon devicon-git-plain-wordmark" />
+        <i
+          title="WordPress"
+          className="devicon devicon-wordpress-plain-wordmark"
+        />
+        <i title="Trello" className="devicon devicon-trello-plain-wordmark" />
+        <i title="Docker" className="devicon devicon-docker-plain-wordmark" />
       </div>
       <p>
         I am proficient in both front-end and back-end development, and have a
