@@ -22,7 +22,7 @@ const Footer = () => {
               className="icon"
               alt="GitHub"
               title="GitHub"
-              src="./images/icons/github.png"
+              src="/images/icons/github.png"
             />
           </a>
           <a
@@ -34,7 +34,7 @@ const Footer = () => {
               className="icon"
               alt="LinkedIn"
               title="LinkedIn"
-              src="./images/icons/linkedin.png"
+              src="/images/icons/linkedin.png"
             />
           </a>
         </article>
