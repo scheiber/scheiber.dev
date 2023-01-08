@@ -30,6 +30,11 @@
   font-size: 125px;
 }
 
+.devicon:hover {
+  color: #808080;
+  transition: color 1s;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1099px) {
   .about-text {
     margin-left: 10%;
