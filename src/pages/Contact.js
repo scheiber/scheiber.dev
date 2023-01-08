@@ -12,7 +12,7 @@ const About = () => (
     <div className="contact-text">
       <p>
         Want to get in touch? Email me at{" "}
-        <a href="mailto:jonathan@scheiber.dev">jonathan@scheiber.dev</a> and
+        <a className="text-link" href="mailto:jonathan@scheiber.dev">jonathan@scheiber.dev</a> and
         feel free to <strong>introduce yourself</strong>.
       </p>
       <p>

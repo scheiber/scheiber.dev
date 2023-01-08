@@ -75,9 +75,14 @@ const About = () => (
       <p>
         If you have a project in mind or are looking for a reliable developer to
         join your team, please don't hesitate to{" "}
-        <a href="/contact">reach out to me</a>. Feel free to take a look at{" "}
-        <a href="/portfolio">my portfolio</a> to see samples of my work. Thank
-        you for visiting.
+        <a className="text-link" href="/contact">
+          reach out to me
+        </a>
+        . Feel free to take a look at{" "}
+        <a className="text-link" href="/portfolio">
+          my portfolio
+        </a>{" "}
+        to see samples of my work. Thank you for visiting.
       </p>
     </div>
     <section>

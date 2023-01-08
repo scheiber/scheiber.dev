@@ -28,6 +28,7 @@ const Portfolio = () => (
             In December 2022, I collaborated with a team of two other developers
             in the role of design/UX lead to create and deploy{" "}
             <a
+              className="text-link"
               alt="Link to Worth a Shot"
               href="http://wshot.netlify.app/"
               target="_blank"
@@ -78,6 +79,7 @@ const Portfolio = () => (
         <p className="portfolio-description">
           In September 2022, I developed{" "}
           <a
+            className="text-link"
             alt="Link to SauceSource"
             href="http://saucesource.netlify.app/"
             target="_blank"

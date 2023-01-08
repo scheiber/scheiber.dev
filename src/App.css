@@ -104,7 +104,6 @@ body {
   font-family: "ChunkFive";
   border: none;
   color: white;
-  font-weight: bold;
   padding: 15px 15px;
   text-align: center;
   text-decoration: none;
@@ -132,7 +131,7 @@ a {
   color: rgb(126, 210, 255);
 }
 
-a:hover {
+.text-link:hover {
   color: white;
   text-decoration: underline;
 }
