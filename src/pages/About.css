@@ -23,16 +23,66 @@
   margin: 2em 2em;
   justify-content: center;
   justify-items: center;
-
 }
 
 .devicon {
   font-size: 125px;
 }
 
-.devicon:hover {
-  color: #808080;
-  transition: color 1s;
+.react-icon:hover,
+.wordpress-icon:hover,
+.vscode-icon:hover,
+.trello-icon:hover {
+  color: #54d1fa;
+  transition: color 0.5s;
+}
+
+.javascript-icon:hover {
+  color: #f2ff01;
+  transition: color 0.5s;
+}
+
+.html5-icon:hover,
+.git-icon:hover {
+  color: #cc341c;
+  transition: color 0.5s;
+}
+
+.css3-icon:hover {
+  color: #1c2ed0;
+  transition: color 0.5s;
+}
+
+.nodejs-icon:hover {
+  color: #09ff00;
+  transition: color 0.5s;
+}
+
+.npm-icon:hover {
+  color: #b52229;
+  transition: color 0.5s;
+}
+
+.express-icon:hover,
+.markdown-icon:hover {
+  color: #969595;
+  transition: color 0.5s;
+}
+
+.postgresql-icon:hover {
+  color: #107ab3;
+  transition: color 0.5s;
+}
+
+.photoshop-icon:hover,
+.docker-icon:hover {
+  color: #2890f4;
+  transition: color 0.5s;
+}
+
+.figma-icon:hover {
+  color: #7f00fd;
+  transition: color 0.5s;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1099px) {

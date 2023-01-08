@@ -30,34 +30,34 @@ const About = () => (
       </p>
       <h1 className="title">Skills</h1>
       <div className="skills-grid">
-        <i title="JavsScript" className="devicon devicon-javascript-plain" />
-        <i title="React" className="devicon devicon-react-plain-wordmark" />
-        <i title="HTML5" className="devicon devicon-html5-plain-wordmark" />
-        <i title="CSS3" className="devicon devicon-css3-plain-wordmark" />
-        <i title="Node.js" className="devicon devicon-nodejs-plain-wordmark" />
-        <i title="npm" className="devicon devicon-npm-original-wordmark" />
+        <i title="JavsScript" className="devicon javascript-icon devicon-javascript-plain" />
+        <i title="React" className="devicon react-icon devicon-react-plain-wordmark" />
+        <i title="HTML5" className="devicon html5-icon devicon-html5-plain-wordmark" />
+        <i title="CSS3" className="devicon css3-icon devicon-css3-plain-wordmark" />
+        <i title="Node.js" className="devicon nodejs-icon devicon-nodejs-plain-wordmark" />
+        <i title="npm" className="devicon npm-icon devicon-npm-original-wordmark" />
         <i
           title="Express"
-          className="devicon devicon-express-original-wordmark"
+          className="devicon express-icon devicon-express-original-wordmark"
         />
-        <i title="Markdown" className="devicon devicon-markdown-plain" />
+        <i title="Markdown" className="devicon markdown-icon devicon-markdown-plain" />
         <i
           title="PostgreSQL"
-          className="devicon devicon-postgresql-plain-wordmark"
+          className="devicon postgresql-icon devicon-postgresql-plain-wordmark"
         />
-        <i title="Adobe Photoshop" className="devicon devicon-photoshop-line" />
-        <i title="Figma" className="devicon devicon-figma-plain" />
+        <i title="Adobe Photoshop" className="devicon photoshop-icon devicon-photoshop-line" />
+        <i title="Figma" className="devicon figma-icon devicon-figma-plain" />
         <i
           title="Visual Studio Code"
-          className="devicon devicon-vscode-plain"
+          className="devicon vscode-icon devicon-vscode-plain"
         />
-        <i title="Git" className="devicon devicon-git-plain-wordmark" />
+        <i title="Git" className="devicon git-icon devicon-git-plain-wordmark" />
         <i
           title="WordPress"
-          className="devicon devicon-wordpress-plain-wordmark"
+          className="devicon wordpress-icon devicon-wordpress-plain-wordmark"
         />
-        <i title="Trello" className="devicon devicon-trello-plain-wordmark" />
-        <i title="Docker" className="devicon devicon-docker-plain-wordmark" />
+        <i title="Trello" className="devicon trello-icon devicon-trello-plain-wordmark" />
+        <i title="Docker" className="devicon docker-icon devicon-docker-plain-wordmark" />
       </div>
       <p>
         I am proficient in both front-end and back-end development, and have a
