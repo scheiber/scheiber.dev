@@ -43,23 +43,14 @@
 }
 
 .html5-icon:hover,
-.git-icon:hover {
+.git-icon:hover,
+.npm-icon:hover {
   color: #cc341c;
-  transition: color 0.5s;
-}
-
-.css3-icon:hover {
-  color: #1c2ed0;
   transition: color 0.5s;
 }
 
 .nodejs-icon:hover {
   color: #09ff00;
-  transition: color 0.5s;
-}
-
-.npm-icon:hover {
-  color: #b52229;
   transition: color 0.5s;
 }
 
@@ -75,7 +66,8 @@
 }
 
 .photoshop-icon:hover,
-.docker-icon:hover {
+.docker-icon:hover,
+.css3-icon:hover {
   color: #2890f4;
   transition: color 0.5s;
 }
