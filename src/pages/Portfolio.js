@@ -14,7 +14,7 @@ const Portfolio = () => (
         <div className="project-image worthashot-image">
           <a
             alt="Link to Worth a Shot"
-            href="http://wshot.netlify.app/"
+            href="https://worthashot.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
@@ -32,7 +32,7 @@ const Portfolio = () => (
             <a
               className="text-link"
               alt="Link to Worth a Shot"
-              href="http://wshot.netlify.app/"
+              href="https://worthashot.scheiber.dev/"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,7 +49,7 @@ const Portfolio = () => (
         <div>
           <a
             alt="Link to Worth a Shot"
-            href="http://wshot.netlify.app/"
+            href="https://worthashot.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
@@ -69,7 +69,7 @@ const Portfolio = () => (
         <div className="saucesource-image project-image">
           <a
             alt="Link to SauceSource"
-            href="http://saucesource.netlify.app/"
+            href="https://saucesource.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,7 +85,7 @@ const Portfolio = () => (
           <a
             className="text-link"
             alt="Link to SauceSource"
-            href="http://saucesource.netlify.app/"
+            href="https://saucesource.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
@@ -100,7 +100,7 @@ const Portfolio = () => (
         <div>
           <a
             alt="Link to SauceSource"
-            href="http://saucesource.netlify.app/"
+            href="https://saucesource.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
