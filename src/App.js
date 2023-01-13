@@ -32,12 +32,14 @@ function App() {
         <Route path="/now" element={<Now />} />
 
         {/* Internal Redirects */}
+        <Route path="/home" element={<Navigate to="/" />} />
         <Route path="/work" element={<Navigate to="/portfolio" />} />
         <Route path="/projects" element={<Navigate to="/portfolio" />} />
 
         {/* External Redirects */}
         <Route path="/github" element={<GitHub />} />
         <Route path="/linkedin" element={<LinkedIn />} />
+        <Route path="/resume" element={<Resume />} />
 
         {/* Side Projects */}
         <Route path="/affirmations" element={<Affirmations />} />
@@ -58,6 +60,13 @@ const LinkedIn = () => {
 
 const GitHub = () => {
   window.location.replace("https://github.com/scheiber");
+  return null;
+};
+
+const Resume = () => {
+  window.location.replace(
+    "https://docs.google.com/document/d/1ZdYIX6EWmPrUtYYgePIHYFqvxWKvmTIo/edit"
+  );
   return null;
 };
 
