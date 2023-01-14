@@ -36,6 +36,11 @@ function App() {
         <Route path="/work" element={<Navigate to="/portfolio" />} />
         <Route path="/projects" element={<Navigate to="/portfolio" />} />
 
+        {/* Internal Shortcuts */}
+        <Route path="/a" element={<Navigate to="/about" />} />
+        <Route path="/p" element={<Navigate to="/portfolio" />} />
+        <Route path="/c" element={<Navigate to="/contact" />} />
+
         {/* External Redirects */}
         <Route path="/github" element={<GitHub />} />
         <Route path="/linkedin" element={<LinkedIn />} />
