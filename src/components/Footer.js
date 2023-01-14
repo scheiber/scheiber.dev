@@ -35,6 +35,11 @@ const Footer = () => (
     <p className="footer-text">
       &copy; {new Date().getFullYear()} Jonathan Scheiber. All rights reserved.
     </p>
+    <div className="pi">
+      <a href="https://resume.scheiber.dev/" title="You've found the secret!">
+        &#960;
+      </a>
+    </div>
   </div>
 );
 
