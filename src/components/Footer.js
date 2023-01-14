@@ -36,7 +36,12 @@ const Footer = () => (
       &copy; {new Date().getFullYear()} Jonathan Scheiber. All rights reserved.
     </p>
     <div className="pi">
-      <a href="https://resume.scheiber.dev/" title="You've found the secret!">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://resume.scheiber.dev/"
+        title="You've found the secret!"
+      >
         &#960;
       </a>
     </div>
