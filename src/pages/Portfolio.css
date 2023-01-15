@@ -38,6 +38,19 @@
   padding-right: 5%;
 }
 
+.project-image img {
+  transition: 0.5s;
+  border: 10px solid rgba(0, 0, 0, 0);
+}
+
+.worthashot-image img:hover {
+  border: 10px solid #fdc500;
+}
+
+.saucesource-image img:hover {
+  border: 10px solid #ff7800;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1099px) {
   .portfolio-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -50,41 +63,6 @@
     padding-left: 10%;
     padding-right: 10%;
   }
-}
-
-.project-image img {
-  --border: 10px; /* the border thickness*/
-  --offset: 10px; /* control the offset*/
-  --gap: 0px; /* the gap on hover */
-
-  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),
-    var(--color) 0;
-  --_o: calc(3 * var(--offset));
-  padding: calc(var(--gap) + var(--border))
-    calc(var(--gap) + var(--border) + var(--offset))
-    calc(var(--gap) + var(--border) + var(--offset))
-    calc(var(--gap) + var(--border));
-  background: linear-gradient(var(--_c)) var(--_o) var(--_o),
-    linear-gradient(90deg, var(--_c)) var(--_o) var(--_o);
-  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
-  background-repeat: no-repeat;
-  filter: grayscale(0.4);
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.project-image img:hover {
-  background-position: 0px 0px;
-  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
-  filter: grayscale(0);
-}
-
-.worthashot-image img {
-  --color: #fdc500;
-}
-
-.saucesource-image img {
-  --color: #ff7800;
 }
 
 @media (max-width: 767px) {
@@ -102,6 +80,22 @@
   }
   .portfolio-description {
     font-size: 18px;
+  }
+
+  .worthashot-image img {
+    border: 4px solid #fdc500;
+  }
+
+  .worthashot-image img:hover {
+    border: 4px solid #fdc500;
+  }
+
+  .saucesource-image img {
+    border: 4px solid #ff7800;
+  }
+
+  .saucesource-image img:hover {
+    border: 4px solid #ff7800;
   }
 }
 
