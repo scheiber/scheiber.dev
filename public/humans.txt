@@ -1,0 +1,15 @@
+   __                    _   _                   __      _          _ _               
+   \ \  ___  _ __   __ _| |_| |__   __ _ _ __   / _\ ___| |__   ___(_) |__   ___ _ __ 
+    \ \/ _ \| '_ \ / _` | __| '_ \ / _` | '_ \  \ \ / __| '_ \ / _ \ | '_ \ / _ \ '__|
+ /\_/ / (_) | | | | (_| | |_| | | | (_| | | | | _\ \ (__| | | |  __/ | |_) |  __/ |   
+ \___/ \___/|_| |_|\__,_|\__|_| |_|\__,_|_| |_| \__/\___|_| |_|\___|_|_.__/ \___|_|   
+                                                                                      
+/* TEAM */
+Jonathan Scheiber
+Email: jonathan@scheiber.dev
+Country: United States of America
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: React
+Software: Visual Studio Code
