@@ -10,7 +10,11 @@ const Footer = () => (
     </div>
     <div>
       <article>
-        <a href="https://github.com/Scheiber" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/Scheiber"
+          target="_blank"
+          rel="noreferrer me"
+        >
           <img
             className="icon"
             alt="GitHub"
@@ -21,13 +25,21 @@ const Footer = () => (
         <a
           href="https://www.linkedin.com/in/jonscheiber/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer me"
         >
           <img
             className="icon"
             alt="LinkedIn"
             title="LinkedIn"
             src="/images/icons/linkedin.png"
+          />
+        </a>
+        <a href="https://qoto.org/@jon" target="_blank" rel="noreferrer me">
+          <img
+            className="icon"
+            alt="Mastodon"
+            title="Mastodon"
+            src="/images/icons/mastodon.png"
           />
         </a>
       </article>
