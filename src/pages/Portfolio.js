@@ -63,6 +63,14 @@ const Portfolio = () => (
           >
             <button className="project-button">Read more</button>
           </a>
+          <a
+            alt="Link to Worth a Shot Demo on YouTube"
+            href="https://www.youtube.com/watch?v=HdrEIB6mWjU"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="project-button">Watch demo</button>
+          </a>
         </div>
       </article>
       <article>
