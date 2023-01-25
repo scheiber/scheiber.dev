@@ -57,7 +57,7 @@ const Portfolio = () => (
           </a>
           <a
             alt="Link to Worth a Shot on GitHub"
-            href="https://github.com/Scheiber/worthashot"
+            href="https://github.com/scheiber/worthashot"
             target="_blank"
             rel="noreferrer"
           >
@@ -116,7 +116,7 @@ const Portfolio = () => (
           </a>
           <a
             alt="Link to Worth a Shot on GitHub"
-            href="https://github.com/Scheiber/saucesource"
+            href="https://github.com/scheiber/saucesource"
             target="_blank"
             rel="noreferrer"
           >

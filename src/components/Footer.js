@@ -11,7 +11,7 @@ const Footer = () => (
     <div>
       <article>
         <a
-          href="https://github.com/Scheiber"
+          href="https://github.com/scheiber"
           target="_blank"
           rel="noreferrer me"
         >
@@ -52,7 +52,7 @@ const Footer = () => (
         className="text-link"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/Scheiber/scheiber.dev"
+        href="https://github.com/scheiber/scheiber.dev"
       >
         open source
       </a>
