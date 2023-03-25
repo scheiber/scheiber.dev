@@ -37,6 +37,12 @@
   font-weight: normal;
 }
 
+.subheader {
+  font-family: "ChunkFive";
+  font-size: 30px;
+  font-weight: normal;
+}
+
 p {
   line-height: 1.5;
   margin-block-start: 10px;

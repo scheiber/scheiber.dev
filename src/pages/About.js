@@ -18,7 +18,7 @@ const About = () => (
     </article>
     <div className="about-text">
       <p>
-        Hello, and welcome to my website! My name is Jonathan Scheiber and I am
+        Hello, and welcome to my website! My name is Jonathan Scheiber, and I am
         a full-stack web developer with a passion for creating dynamic,
         user-friendly websites and applications.
       </p>
@@ -30,34 +30,67 @@ const About = () => (
       </p>
       <h1 className="title">Skills</h1>
       <div className="skills-grid">
-        <i title="JavsScript" className="devicon javascript-icon devicon-javascript-plain" />
-        <i title="React" className="devicon react-icon devicon-react-plain-wordmark" />
-        <i title="HTML5" className="devicon html5-icon devicon-html5-plain-wordmark" />
-        <i title="CSS3" className="devicon css3-icon devicon-css3-plain-wordmark" />
-        <i title="Node.js" className="devicon nodejs-icon devicon-nodejs-plain-wordmark" />
-        <i title="npm" className="devicon npm-icon devicon-npm-original-wordmark" />
+        <i
+          title="JavsScript"
+          className="devicon javascript-icon devicon-javascript-plain"
+        />
+        <i
+          title="React"
+          className="devicon react-icon devicon-react-plain-wordmark"
+        />
+        <i
+          title="HTML5"
+          className="devicon html5-icon devicon-html5-plain-wordmark"
+        />
+        <i
+          title="CSS3"
+          className="devicon css3-icon devicon-css3-plain-wordmark"
+        />
+        <i
+          title="Node.js"
+          className="devicon nodejs-icon devicon-nodejs-plain-wordmark"
+        />
+        <i
+          title="npm"
+          className="devicon npm-icon devicon-npm-original-wordmark"
+        />
         <i
           title="Express"
           className="devicon express-icon devicon-express-original-wordmark"
         />
-        <i title="Markdown" className="devicon markdown-icon devicon-markdown-plain" />
+        <i
+          title="Markdown"
+          className="devicon markdown-icon devicon-markdown-plain"
+        />
         <i
           title="PostgreSQL"
           className="devicon postgresql-icon devicon-postgresql-plain-wordmark"
         />
-        <i title="Adobe Photoshop" className="devicon photoshop-icon devicon-photoshop-line" />
+        <i
+          title="Adobe Photoshop"
+          className="devicon photoshop-icon devicon-photoshop-line"
+        />
         <i title="Figma" className="devicon figma-icon devicon-figma-plain" />
         <i
           title="Visual Studio Code"
           className="devicon vscode-icon devicon-vscode-plain"
         />
-        <i title="Git" className="devicon git-icon devicon-git-plain-wordmark" />
+        <i
+          title="Git"
+          className="devicon git-icon devicon-git-plain-wordmark"
+        />
         <i
           title="WordPress"
           className="devicon wordpress-icon devicon-wordpress-plain-wordmark"
         />
-        <i title="Trello" className="devicon trello-icon devicon-trello-plain-wordmark" />
-        <i title="Docker" className="devicon docker-icon devicon-docker-plain-wordmark" />
+        <i
+          title="Trello"
+          className="devicon trello-icon devicon-trello-plain-wordmark"
+        />
+        <i
+          title="Docker"
+          className="devicon docker-icon devicon-docker-plain-wordmark"
+        />
       </div>
       <p>
         I am proficient in both front-end and back-end development, and have a
@@ -79,6 +112,10 @@ const About = () => (
           reach out to me
         </a>
         . Feel free to take a look at{" "}
+        <a className="text-link" href="https://resume.scheiber.dev">
+          my resume
+        </a>
+        , as well as{" "}
         <a className="text-link" href="/portfolio">
           my portfolio
         </a>{" "}
