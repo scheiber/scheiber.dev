@@ -35,11 +35,13 @@
 .trello-icon:hover {
   color: #54d1fa;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 .javascript-icon:hover {
   color: #f2ff01;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 .html5-icon:hover,
@@ -47,22 +49,26 @@
 .npm-icon:hover {
   color: #f26d00;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 .nodejs-icon:hover {
   color: #09ff00;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 .express-icon:hover,
 .markdown-icon:hover {
   color: #969595;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 .postgresql-icon:hover {
   color: #107ab3;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 .photoshop-icon:hover,
@@ -70,11 +76,13 @@
 .css3-icon:hover {
   color: #2890f4;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 .figma-icon:hover {
   color: #7f00fd;
   transition: color 0.5s;
+  text-shadow: 2px 2px #000;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1099px) {

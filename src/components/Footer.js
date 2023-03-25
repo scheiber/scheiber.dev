@@ -47,14 +47,15 @@ const Footer = () => (
     <p className="footer-text">
       &copy; {new Date().getFullYear()} Jonathan Scheiber. All rights reserved.
       <br />
-      This site was created, coded, and styled by Jonathan Scheiber and is{" "}
+      This site was created, coded, and styled by Jonathan Scheiber.
+      <br />{" "}
       <a
         className="text-link"
         target="_blank"
         rel="noopener noreferrer"
         href="https://github.com/scheiber/scheiber.dev"
       >
-        open source
+        Source is available here
       </a>
       .
     </p>
