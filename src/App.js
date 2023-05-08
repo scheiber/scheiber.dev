@@ -8,6 +8,7 @@ import Now from "./pages/Now";
 import Affirmations from "./pages/Affirmations";
 import Motivator from "./pages/Motivator";
 import Error from "./pages/Error";
+import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -24,32 +25,27 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-
         {/* Pages */}
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/now" element={<Now />} />
-
+        <Route path="/gallery" element={<Gallery />} />"
         {/* Internal Redirects */}
         <Route path="/home" element={<Navigate to="/" />} />
         <Route path="/work" element={<Navigate to="/portfolio" />} />
         <Route path="/projects" element={<Navigate to="/portfolio" />} />
-
         {/* Internal Shortcuts */}
         <Route path="/a" element={<Navigate to="/about" />} />
         <Route path="/p" element={<Navigate to="/portfolio" />} />
         <Route path="/c" element={<Navigate to="/contact" />} />
-
         {/* External Redirects */}
         <Route path="/github" element={<GitHub />} />
         <Route path="/linkedin" element={<LinkedIn />} />
         <Route path="/resume" element={<Resume />} />
-
         {/* Side Projects */}
         <Route path="/affirmations" element={<Affirmations />} />
         <Route path="/motivator" element={<Motivator />} />
-
         {/* 404 Page */}
         <Route path="*" element={<Error />} />
       </Routes>
