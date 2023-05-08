@@ -12,10 +12,18 @@ const Home = () => (
     <section className="links">
       <div>
         <a href="/about">
-          <button className="big-blue-button">Read more</button>
+          <button className="big-blue-button">About</button>
         </a>
         <a href="/portfolio">
-          <button className="big-blue-button">See my work</button>
+          <button className="big-blue-button">Portfolio</button>
+        </a>
+      </div>
+      <div>
+        <a href="/gallery">
+          <button className="big-blue-button">Gallery</button>
+        </a>
+        <a href="/now">
+          <button className="big-blue-button">Now</button>
         </a>
       </div>
     </section>

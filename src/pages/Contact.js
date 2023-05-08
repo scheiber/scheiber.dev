@@ -12,8 +12,10 @@ const About = () => (
     <div className="contact-text">
       <p>
         Want to get in touch? Email me at{" "}
-        <a className="text-link" href="mailto:jonathan@scheiber.dev">jonathan@scheiber.dev</a> and
-        feel free to <strong>introduce yourself</strong>.
+        <a className="text-link" href="mailto:jonathan@scheiber.dev">
+          jonathan@scheiber.dev
+        </a>{" "}
+        and feel free to <strong>introduce yourself</strong>.
       </p>
       <p>
         I love getting to know people from around the world and in every
@@ -30,7 +32,7 @@ const About = () => (
     <section>
       <div>
         <a href="/portfolio">
-          <button className="big-blue-button">See my work</button>
+          <button className="big-blue-button">Portfolio</button>
         </a>
       </div>
     </section>

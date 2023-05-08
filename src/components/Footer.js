@@ -5,7 +5,7 @@ const Footer = () => (
   <div className="footer">
     <div>
       <a href="/contact">
-        <button className="big-blue-button">Contact me</button>
+        <button className="big-blue-button">Contact</button>
       </a>
     </div>
     <div>

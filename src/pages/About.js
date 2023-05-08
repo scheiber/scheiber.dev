@@ -125,7 +125,7 @@ const About = () => (
     <section>
       <div>
         <a href="/portfolio">
-          <button className="big-blue-button">See my work</button>
+          <button className="big-blue-button">Portfolio</button>
         </a>
       </div>
     </section>
