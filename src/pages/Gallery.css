@@ -2,6 +2,10 @@
   padding: 15px;
 }
 
+.tile:hover {
+  filter: saturate(150%) brightness(150%);
+}
+
 @media screen and (max-width: 767px) {
   .gallery {
     padding: 5px;

@@ -18,8 +18,9 @@ const GalleryDisplay = () => (
     <div className="now-text">
       <p>
         This is a collection of graphics and illustrations that I have created
-        during the course of my career. Click the images below to open them in a
-        new tab.
+        over the course of my career.
+        <br /> Click the images below to open a larger version in a new tab, or
+        right-click to save.
       </p>
     </div>
     <div className="gallery-grid">
