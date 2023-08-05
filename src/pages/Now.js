@@ -60,7 +60,7 @@ const About = () => (
         .
       </p>
       <h1 className="subheader">Watching</h1>
-      <a href="https://www.last.fm/user/JonScheiber">
+      <a href="https://letterboxd.com/js/">
         <img
           className="logo"
           src="/images/logos/letterboxd.png"
