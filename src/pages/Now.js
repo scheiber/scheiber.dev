@@ -28,7 +28,7 @@ const About = () => (
           className="logo"
           src="/images/logos/coursera.png"
           alt="Coursera logo"
-          height="50px"
+          height="40px"
         />
       </a>
       <p>
