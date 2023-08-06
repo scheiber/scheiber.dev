@@ -69,7 +69,7 @@ const About = () => (
         />
       </a>
       <p>
-        Track what movies I've watched on{" "}
+        Track what movies I'm watching on{" "}
         <a className="text-link" href="https://letterboxd.com/js/">
           Letterboxd
         </a>
@@ -87,6 +87,22 @@ const About = () => (
       <p>
         Track what music I'm listening to on{" "}
         <a className="text-link" href="https://www.last.fm/user/JonScheiber">
+          Last.fm
+        </a>
+        .
+      </p>
+      <h1 className="subheader">Reading</h1>
+      <a href="https://www.goodreads.com/scheiber">
+        <img
+          className="logo"
+          src="/images/logos/goodreads.png"
+          alt="Goodreads logo"
+          height="50px"
+        />
+      </a>
+      <p>
+        Track what books I'm reading on{" "}
+        <a className="text-link" href="https://www.goodreads.com/scheiber">
           Last.fm
         </a>
         .
