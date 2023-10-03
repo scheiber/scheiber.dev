@@ -103,7 +103,7 @@ const About = () => (
       <p>
         Track what books I'm reading on{" "}
         <a className="text-link" href="https://www.goodreads.com/scheiber">
-          Last.fm
+          Goodreads
         </a>
         .
       </p>
