@@ -34,12 +34,16 @@ const Footer = () => (
             src="/images/icons/linkedin.png"
           />
         </a>
-        <a href="https://qoto.org/@jon" target="_blank" rel="noreferrer me">
+        <a
+          href="https://bsky.app/profile/scheiber.dev"
+          target="_blank"
+          rel="noreferrer me"
+        >
           <img
             className="icon"
-            alt="Mastodon"
-            title="Mastodon"
-            src="/images/icons/mastodon.png"
+            alt="Bluesky"
+            title="Bluesky"
+            src="/images/icons/bluesky.png"
           />
         </a>
       </article>
