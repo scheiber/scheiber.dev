@@ -3,11 +3,11 @@ import "./Home.css";
 const Home = () => (
   <div className="home">
     <div className="tagline-box">
-      <p className="tagline">Pursuit Fellow</p>
-      <p className="tagline">Full-Stack Web Developer</p>
-      <p className="tagline">CompTIA A+ Certified IT Professional</p>
-      <p className="tagline">Cybersecurity Evangelist</p>
-      <p className="tagline">Accessibility Advocate</p>
+      <div className="tagline">Pursuit Fellow</div>
+      <div className="tagline">Full-Stack Web Developer</div>
+      <div className="tagline">CompTIA A+ Certified IT Professional</div>
+      <div className="tagline">Cybersecurity Evangelist</div>
+      <div className="tagline">Accessibility Advocate</div>
     </div>
     <section className="links">
       <div>
