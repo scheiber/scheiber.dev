@@ -11,6 +11,61 @@ const Portfolio = () => (
     <h1 className="title">Portfolio</h1>
     <section className="portfolio-grid">
       <article>
+        <div className="project-image resultsfixer-image">
+          <a
+            alt="Link to ResultsFixer"
+            href="https://fixer.scheiber.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="thumbnail"
+              alt="ResultsFixer preview"
+              src="./images/projects/resultsfixer.png"
+            />
+          </a>
+        </div>
+        <div>
+          <p className="portfolio-description">
+            In August 2004, I created{" "}
+            <a
+              className="text-link"
+              alt="Link to ResultsFixer"
+              href="https://fixer.scheiber.dev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ResultsFixer
+            </a>
+            , a web app that allows you to copy your results from games such as
+            Connections and Strands and have two spaces automatically added to
+            the end of each line, making the lines appear "stacked" when sharing
+            on platforms that use Markdown, such as Reddit and Lemmy. I was
+            solely responsible for creating graphic and layout elements,
+            branding, writing documentation, implementing features, optimizing
+            for mobile, and enhancing user experience.
+          </p>
+        </div>
+        <div>
+          <a
+            alt="Link to ResultsFixer"
+            href="https://fixer.scheiber.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="project-button">Visit website</button>
+          </a>
+          <a
+            alt="Link to ResultsFixer on GitHub"
+            href="https://github.com/scheiber/connections-results-fixer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="project-button">Read more</button>
+          </a>
+        </div>
+      </article>
+      <article>
         <div className="project-image worthashot-image">
           <a
             alt="Link to Worth a Shot"
@@ -20,7 +75,7 @@ const Portfolio = () => (
           >
             <img
               className="thumbnail"
-              alt="Worth a Shot logo"
+              alt="Worth a Shot preview"
               src="./images/projects/worthashot.png"
             />
           </a>
@@ -73,7 +128,7 @@ const Portfolio = () => (
           </a>
         </div>
       </article>
-      <article>
+      <article className="center-item">
         <div className="saucesource-image project-image">
           <a
             alt="Link to SauceSource"
@@ -83,7 +138,7 @@ const Portfolio = () => (
           >
             <img
               className="thumbnail"
-              alt="SauceSource logo"
+              alt="SauceSource preview"
               src="./images/projects/saucesource.png"
             />
           </a>
