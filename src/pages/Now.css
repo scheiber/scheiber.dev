@@ -60,5 +60,6 @@
   .learning-grid,
   .hobbies-grid {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
   }
 }
