@@ -38,11 +38,17 @@ function App() {
         {/* Internal Shortcuts */}
         <Route path="/a" element={<Navigate to="/about" />} />
         <Route path="/p" element={<Navigate to="/portfolio" />} />
+        <Route path="/w" element={<Navigate to="/portfolio" />} />
+        <Route path="/n" element={<Navigate to="/now" />} />
+        <Route path="/g" element={<Navigate to="/gallery" />} />
         <Route path="/c" element={<Navigate to="/contact" />} />
         {/* External Redirects */}
         <Route path="/github" element={<GitHub />} />
+        <Route path="/gh" element={<GitHub />} />
         <Route path="/linkedin" element={<LinkedIn />} />
+        <Route path="/li" element={<LinkedIn />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/r" element={<Resume />} />
         {/* Side Projects */}
         <Route path="/affirmations" element={<Affirmations />} />
         <Route path="/motivator" element={<Motivator />} />
