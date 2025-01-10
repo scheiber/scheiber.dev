@@ -27,7 +27,7 @@ const Portfolio = () => (
         </div>
         <div>
           <p className="portfolio-description">
-            In August 2004, I created{" "}
+            In August 2024, I created{" "}
             <a
               className="text-link"
               alt="Link to ResultsFixer"
