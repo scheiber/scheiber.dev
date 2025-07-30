@@ -2,12 +2,14 @@ import "./Home.css";
 
 const Home = () => (
   <div className="home">
-    <div className="tagline-box">
-      <div className="tagline">Pursuit Fellow</div>
-      <div className="tagline">Full-Stack Web Developer</div>
-      <div className="tagline">CompTIA A+ Certified IT Professional</div>
-      <div className="tagline">Cybersecurity Evangelist</div>
-      <div className="tagline">Accessibility Advocate</div>
+    <div className="headline-box">
+      <div className="headline">Pursuit Fellow</div>
+      <div className="headline">Full-Stack Web Developer</div>
+      <div className="headline">
+        Google IT Support/CompTIA A+ Dual Certified
+      </div>
+      <div className="headline">Cybersecurity Evangelist</div>
+      <div className="headline">Accessibility Advocate</div>
     </div>
     <section className="links">
       <div>

@@ -1,14 +1,14 @@
 @media (max-width: 767px) {
-  .tagline {
+  .headline {
     font-size: 25px;
   }
-  .tagline-box {
+  .headline-box {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
 
-.tagline-box {
+.headline-box {
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -18,30 +18,30 @@
   margin-right: 15%;
 }
 
-.tagline {
+.headline {
   line-height: 1.2;
   position: absolute;
   opacity: 0;
   animation: fadeInOut 15s linear infinite;
 }
 
-.tagline:nth-child(1) {
+.headline:nth-child(1) {
   animation-delay: 0s;
 }
 
-.tagline:nth-child(2) {
+.headline:nth-child(2) {
   animation-delay: 3s;
 }
 
-.tagline:nth-child(3) {
+.headline:nth-child(3) {
   animation-delay: 6s;
 }
 
-.tagline:nth-child(4) {
+.headline:nth-child(4) {
   animation-delay: 9s;
 }
 
-.tagline:nth-child(5) {
+.headline:nth-child(5) {
   animation-delay: 12s;
 }
 
