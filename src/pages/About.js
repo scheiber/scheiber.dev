@@ -63,7 +63,7 @@ const About = () => (
             <img
               className="badge-image"
               src="./images/badges/comptia-a-plus.png"
-              alt="CompTIA A+ Certification"
+              alt="CompTIA A+ Certification badge"
             />
           </a>
           <h2 className="accomplishment-date">2016–2028 (Renewed)</h2>
@@ -74,7 +74,7 @@ const About = () => (
           </p>
         </div>
         <div className="accomplishment">
-          <h2 className="accomplishment-title">Pursuit Fellowship</h2>
+          <h2 className="accomplishment-title">The Pursuit Fellowship</h2>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -83,15 +83,14 @@ const About = () => (
             <img
               className="badge-image badge-pursuit"
               src="./images/badges/pursuit-fellowship.png"
-              alt="Pursuit Fellowship"
+              alt="Pursuit Fellowship badge"
             />
           </a>
           <h2 className="accomplishment-date">2021–2022</h2>
           <p>
-            Participated in a 12-month software engineering fellowship covering
-            JavaScript, HTML, CSS, Node.js, Express, React/Redux, PostgreSQL,
-            APIs, Git, data structures, algorithms, sprints, Agile, code
-            reviews, and pair programming.
+            Participated in a 12-month software engineering training program
+            covering JavaScript, HTML, CSS, Node.js, Express, React/Redux,
+            PostgreSQL, APIs, Git, data structures, algorithms, and code reviews.
           </p>
         </div>
       </div>
