@@ -28,6 +28,73 @@ const About = () => (
         macOS. I am highly motivated and always looking to improve my skills and
         stay up to date with the latest trends in web development.
       </p>
+      <h1 className="title">Accomplishments</h1>
+      <div className="accomplishments-grid">
+        <div className="accomplishment">
+          <h2 className="accomplishment-title">
+            Google IT Support Professional Certificate
+          </h2>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.coursera.org/account/accomplishments/specialization/VWO09U4ZLZO6"
+          >
+            <img
+              className="badge-image"
+              src="./images/badges/google-it-support.png"
+              alt="Google IT Support Professional Certificate badge"
+            />
+          </a>
+          <h2 className="accomplishment-date">2025</h2>
+          <p>
+            Completed a comprehensive program that provided me with the skills
+            and knowledge needed to excel in IT support roles, including
+            troubleshooting, networking, system administration, and security
+            fundamentals.
+          </p>
+        </div>
+        <div className="accomplishment">
+          <h2 className="accomplishment-title">CompTIA A+ Certification</h2>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.certmetrics.com/comptia/public/verification.aspx?code=TNGZ15T3EDEEYL8C"
+          >
+            <img
+              className="badge-image"
+              src="./images/badges/comptia-a-plus.png"
+              alt="CompTIA A+ Certification"
+            />
+          </a>
+          <h2 className="accomplishment-date">2016–2028 (Renewed)</h2>
+          <p>
+            Earned an industry-standard certification in computer hardware,
+            software, networking, and IT support, demonstrating my ability to
+            troubleshoot and resolve technical issues effectively.
+          </p>
+        </div>
+        <div className="accomplishment">
+          <h2 className="accomplishment-title">Pursuit Fellowship</h2>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.pursuit.org/"
+          >
+            <img
+              className="badge-image badge-pursuit"
+              src="./images/badges/pursuit-fellowship.png"
+              alt="Pursuit Fellowship"
+            />
+          </a>
+          <h2 className="accomplishment-date">2021–2022</h2>
+          <p>
+            Participated in a 12-month software engineering fellowship covering
+            JavaScript, HTML, CSS, Node.js, Express, React/Redux, PostgreSQL,
+            APIs, Git, data structures, algorithms, sprints, Agile, code
+            reviews, and pair programming.
+          </p>
+        </div>
+      </div>
       <h1 className="title">Skills</h1>
       <div className="skills-grid">
         <i
@@ -112,7 +179,12 @@ const About = () => (
           reach out to me
         </a>
         . Feel free to take a look at{" "}
-        <a className="text-link" href="https://resume.scheiber.dev">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-link"
+          href="https://resume.scheiber.dev"
+        >
           my resume
         </a>
         , as well as{" "}

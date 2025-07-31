@@ -15,6 +15,51 @@
   font-size: 20px;
 }
 
+/* Accomplishments */
+
+.accomplishment-title {
+  font-family: "ChunkFive";
+  font-size: 25px;
+  font-weight: normal;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
+.accomplishment-date {
+  font-family: "ChunkFive";
+  font-size: 20px;
+  font-weight: normal;
+  margin-block-start: 3px;
+  margin-block-end: 3px;
+}
+
+.accomplishments-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 4rem;
+  margin: 2em 2em;
+  justify-content: center;
+  justify-items: center;
+}
+
+.badge-image {
+  height: 250px;
+  padding: 10px;
+  transition: filter 1s;
+}
+
+.badge-image:hover {
+  filter: drop-shadow(0px 0px 15px #ffffff);
+  transition: filter 1s;
+}
+
+.badge-pursuit {
+  border-radius: 100%;
+}
+
+/* Skills */
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -94,8 +139,15 @@
     padding-left: 10%;
     padding-right: 10%;
   }
+  .accomplishments-grid {
+    grid-gap: 2rem;
+        margin: 0px;
+  }
+  .badge-image {
+    height: 175px;
+  }
   .devicon {
-    font-size: 80px;
+    font-size: 90px;
   }
 }
 
@@ -119,11 +171,23 @@
   .about-header {
     font-size: 28px;
   }
+  .accomplishments-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    margin: 0px;
+  }
   .skills-grid {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin-left: 0px;
+    margin-right: 0px;
+    row-gap: 3rem;
   }
   .devicon {
-    font-size: 60px;
+    font-size: 120px;
   }
 }
