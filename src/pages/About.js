@@ -12,7 +12,7 @@ const About = () => (
     <article>
       <img
         className="headshot"
-        src="./images/headshot.png"
+        src="./images/headshot.jpg"
         alt="Headshot of Jonathan Scheiber"
       />
     </article>
