@@ -14,18 +14,18 @@ const Home = () => (
     <section className="links">
       <div>
         <a href="/about">
-          <button className="big-blue-button">About</button>
+          <button className="big-button">About</button>
         </a>
         <a href="/portfolio">
-          <button className="big-blue-button">Portfolio</button>
+          <button className="big-button">Portfolio</button>
         </a>
       </div>
       <div>
         <a href="/gallery">
-          <button className="big-blue-button">Gallery</button>
+          <button className="big-button">Gallery</button>
         </a>
         <a href="/now">
-          <button className="big-blue-button">Now</button>
+          <button className="big-button">Now</button>
         </a>
       </div>
     </section>

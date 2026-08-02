@@ -93,12 +93,12 @@ html {
 }
 
 body {
-  background: linear-gradient(
+background: linear-gradient(
     0deg,
-    rgba(2, 0, 36, 1),
-    rgb(0, 44, 83),
-    rgb(0, 89, 166),
-    rgb(0, 128, 255)
+    rgba(10, 10, 11, 1),
+    rgb(28, 28, 30),
+    rgb(55, 55, 59),
+    rgb(90, 90, 96)
   );
   height: 100%;
   margin: 0;
@@ -106,8 +106,8 @@ body {
   background-attachment: fixed;
 }
 
-.big-blue-button {
-  background-color: #138dff;
+.big-button {
+  background-color: #000000;
   font-family: "ChunkFive";
   border: none;
   color: white;
@@ -123,7 +123,7 @@ body {
   transition: background-color 1s;
 }
 
-.big-blue-button:hover {
+.big-button:hover {
   background-color: #e7e7e7;
   color: black;
   transition: background-color 1s;
