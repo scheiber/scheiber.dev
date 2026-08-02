@@ -90,7 +90,8 @@ const About = () => (
           <p>
             Participated in a 12-month software engineering training program
             covering JavaScript, HTML, CSS, Node.js, Express, React/Redux,
-            PostgreSQL, APIs, Git, data structures, algorithms, and code reviews.
+            PostgreSQL, APIs, Git, data structures, algorithms, and code
+            reviews.
           </p>
         </div>
       </div>
@@ -196,7 +197,7 @@ const About = () => (
     <section>
       <div>
         <a href="/portfolio">
-          <button className="big-blue-button">Portfolio</button>
+          <button className="big-button">Portfolio</button>
         </a>
       </div>
     </section>
