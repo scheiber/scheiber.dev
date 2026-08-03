@@ -30,6 +30,22 @@
   color: white;
 }
 
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 12px 20px;
+  z-index: 1000;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 .title,
 .headline {
   font-family: "ChunkFive";
@@ -76,16 +92,19 @@ h1 {
 @font-face {
   font-family: "ChunkFive";
   src: url(./fonts/ChunkFive-Regular.otf) format("opentype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Phosphate";
   src: url(./fonts/Phosphate-Inline.otf) format("opentype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
   src: url(./fonts/Montserrat-Medium.otf) format("opentype");
+  font-display: swap;
 }
 
 html {
