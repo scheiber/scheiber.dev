@@ -21,7 +21,7 @@ const GalleryDisplay = () => (
         <a key={photo.src} href={photo.src} target="_blank" rel="noreferrer">
           <img
             className="tile"
-            src={photo.src}
+            src={photo.thumb}
             alt={photo.alt}
             width={photo.width}
             height={photo.height}
