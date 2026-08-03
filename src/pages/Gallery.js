@@ -1,11 +1,6 @@
 import "./Gallery.css";
 import { Helmet } from "react-helmet-async";
-import Gallery from "react-photo-gallery";
 import backgrounds from "./Backgrounds";
-
-const onClick = (event) => {
-  window.open(event.target.src, "_blank");
-};
 
 const GalleryDisplay = () => (
   <div className="gallery">
@@ -21,9 +16,18 @@ const GalleryDisplay = () => (
         right-click to save.
       </p>
     </div>
-    <div className="gallery-grid">
-      {" "}
-      <Gallery photos={backgrounds} onClick={onClick} />
+    <div className="photo-grid">
+      {backgrounds.map((photo) => (
+        <a key={photo.src} href={photo.src} target="_blank" rel="noreferrer">
+          <img
+            className="tile"
+            src={photo.src}
+            alt={photo.alt}
+            width={photo.width}
+            height={photo.height}
+          />
+        </a>
+      ))}
     </div>
   </div>
 );
