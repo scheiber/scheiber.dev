@@ -39,7 +39,7 @@ const About = () => (
             href="https://www.coursera.org/account/accomplishments/specialization/VWO09U4ZLZO6"
           >
             <img
-              className="badge-image"
+              className="badge-image badge-google-it"
               src="./images/badges/google-it-support.png"
               alt="Google IT Support Professional Certificate badge"
             />
@@ -60,7 +60,7 @@ const About = () => (
             href="https://www.certmetrics.com/comptia/public/verification.aspx?code=TNGZ15T3EDEEYL8C"
           >
             <img
-              className="badge-image"
+              className="badge-image badge-comptia"
               src="./images/badges/comptia-a-plus.png"
               alt="CompTIA A+ Certification badge"
             />

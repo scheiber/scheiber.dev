@@ -45,6 +45,7 @@
 
 .badge-image {
   height: 250px;
+  width: auto;
   padding: 10px;
   transition: filter 1s;
 }
@@ -54,7 +55,16 @@
   transition: filter 1s;
 }
 
+.badge-google-it {
+  aspect-ratio: 586 / 500;
+}
+
+.badge-comptia {
+  aspect-ratio: 500 / 479;
+}
+
 .badge-pursuit {
+  aspect-ratio: 1 / 1;
   border-radius: 100%;
 }
 
