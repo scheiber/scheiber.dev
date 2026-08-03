@@ -11,6 +11,7 @@ import Error from "./pages/Error";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import { useEffect } from "react";
 import Aos from "aos";
@@ -22,6 +23,7 @@ function App() {
   }, []);
   return (
     <div className="app" data-aos="fade-down">
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
