@@ -19,44 +19,53 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({
+      duration: 1000,
+      disable: () =>
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+    });
   }, []);
   return (
     <div className="app" data-aos="fade-down">
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
       <ScrollToTop />
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* Pages */}
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/now" element={<Now />} />
-        <Route path="/gallery" element={<Gallery />} />
-        {/* Internal Redirects */}
-        <Route path="/home" element={<Navigate to="/" />} />
-        <Route path="/work" element={<Navigate to="/portfolio" />} />
-        <Route path="/projects" element={<Navigate to="/portfolio" />} />
-        {/* Internal Shortcuts */}
-        <Route path="/a" element={<Navigate to="/about" />} />
-        <Route path="/p" element={<Navigate to="/portfolio" />} />
-        <Route path="/w" element={<Navigate to="/portfolio" />} />
-        <Route path="/n" element={<Navigate to="/now" />} />
-        <Route path="/g" element={<Navigate to="/gallery" />} />
-        <Route path="/c" element={<Navigate to="/contact" />} />
-        {/* External Redirects */}
-        <Route path="/github" element={<GitHub />} />
-        <Route path="/gh" element={<GitHub />} />
-        <Route path="/linkedin" element={<LinkedIn />} />
-        <Route path="/li" element={<LinkedIn />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/r" element={<Resume />} />
-        {/* Side Projects */}
-        <Route path="/affirmations" element={<Affirmations />} />
-        <Route path="/motivator" element={<Motivator />} />
-        {/* 404 Page */}
-        <Route path="*" element={<Error />} />
-      </Routes>
+      <main id="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Pages */}
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/now" element={<Now />} />
+          <Route path="/gallery" element={<Gallery />} />
+          {/* Internal Redirects */}
+          <Route path="/home" element={<Navigate to="/" />} />
+          <Route path="/work" element={<Navigate to="/portfolio" />} />
+          <Route path="/projects" element={<Navigate to="/portfolio" />} />
+          {/* Internal Shortcuts */}
+          <Route path="/a" element={<Navigate to="/about" />} />
+          <Route path="/p" element={<Navigate to="/portfolio" />} />
+          <Route path="/w" element={<Navigate to="/portfolio" />} />
+          <Route path="/n" element={<Navigate to="/now" />} />
+          <Route path="/g" element={<Navigate to="/gallery" />} />
+          <Route path="/c" element={<Navigate to="/contact" />} />
+          {/* External Redirects */}
+          <Route path="/github" element={<GitHub />} />
+          <Route path="/gh" element={<GitHub />} />
+          <Route path="/linkedin" element={<LinkedIn />} />
+          <Route path="/li" element={<LinkedIn />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/r" element={<Resume />} />
+          {/* Side Projects */}
+          <Route path="/affirmations" element={<Affirmations />} />
+          <Route path="/motivator" element={<Motivator />} />
+          {/* 404 Page */}
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );
