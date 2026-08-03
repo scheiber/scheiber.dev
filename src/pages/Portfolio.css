@@ -39,6 +39,10 @@
   padding-right: 5%;
 }
 
+.thumbnail {
+  width: 500px;
+}
+
 .project-image img {
   transition: 0.5s;
   border: 10px solid rgba(0, 0, 0, 0);
