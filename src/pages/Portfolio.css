@@ -27,10 +27,12 @@
   box-sizing: border-box;
 }
 
-.project-button:hover {
-  background-color: #e7e7e7;
-  color: black;
-  transition: background-color 1s;
+@media (hover: hover) and (pointer: fine) {
+  .project-button:hover {
+    background-color: #e7e7e7;
+    color: black;
+    transition: background-color 1s;
+  }
 }
 
 .portfolio-description {
@@ -48,16 +50,18 @@
   border: 10px solid rgba(0, 0, 0, 0);
 }
 
-.worthashot-image img:hover {
-  border: 10px solid #fdc500;
-}
+@media (hover: hover) and (pointer: fine) {
+  .worthashot-image img:hover {
+    border: 10px solid #fdc500;
+  }
 
-.saucesource-image img:hover {
-  border: 10px solid #ff7800;
-}
+  .saucesource-image img:hover {
+    border: 10px solid #ff7800;
+  }
 
-.resultsfixer-image img:hover {
-  border: 10px solid #8f61d7;
+  .resultsfixer-image img:hover {
+    border: 10px solid #8f61d7;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1099px) {

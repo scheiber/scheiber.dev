@@ -144,10 +144,12 @@ background: linear-gradient(
   box-sizing: border-box;
 }
 
-.big-button:hover {
-  background-color: #e7e7e7;
-  color: black;
-  transition: background-color 1s;
+@media (hover: hover) and (pointer: fine) {
+  .big-button:hover {
+    background-color: #e7e7e7;
+    color: black;
+    transition: background-color 1s;
+  }
 }
 
 .link {
@@ -161,9 +163,11 @@ a {
   color: rgb(126, 210, 255);
 }
 
-.text-link:hover {
-  color: white;
-  text-decoration: underline;
+@media (hover: hover) and (pointer: fine) {
+  .text-link:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1099px) {

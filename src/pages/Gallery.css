@@ -15,8 +15,10 @@
   transition: filter 1s;
 }
 
-.tile:hover {
-  filter: saturate(150%) brightness(150%);
+@media (hover: hover) and (pointer: fine) {
+  .tile:hover {
+    filter: saturate(150%) brightness(150%);
+  }
 }
 
 @media screen and (max-width: 767px) {
