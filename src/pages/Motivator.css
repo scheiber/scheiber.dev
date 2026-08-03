@@ -43,4 +43,10 @@
   .motivation {
     font-size: 50px;
   }
+  .another-motivator {
+    font-size: 25px;
+    width: 150px;
+    padding: 12px 12px;
+    margin: 7px;
+  }
 }
