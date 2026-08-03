@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => (
   <div className="header">
-    <a className="name-link" href="/">
+    <Link className="name-link" to="/">
       <h1 className="name">Jonathan Scheiber</h1>
-    </a>
+    </Link>
   </div>
 );
 

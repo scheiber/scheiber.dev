@@ -107,6 +107,7 @@ background: linear-gradient(
 }
 
 .big-button {
+  display: inline-block;
   background-color: #000000;
   font-family: "ChunkFive";
   border: none;
@@ -121,6 +122,7 @@ background: linear-gradient(
   border-radius: 4px;
   font-weight: normal;
   transition: background-color 1s;
+  box-sizing: border-box;
 }
 
 .big-button:hover {

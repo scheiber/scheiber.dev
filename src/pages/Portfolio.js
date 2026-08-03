@@ -1,23 +1,16 @@
 import "./Portfolio.css";
-import { HelmetProvider, Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 
 const Portfolio = () => (
   <div className="portfolio">
-    <HelmetProvider>
-      <Helmet>
-        <title>Jonathan Scheiber | Portfolio</title>
-      </Helmet>
-    </HelmetProvider>
+    <Helmet>
+      <title>Jonathan Scheiber | Portfolio</title>
+    </Helmet>
     <h1 className="title">Portfolio</h1>
     <section className="portfolio-grid">
       <article>
         <div className="project-image resultsfixer-image">
-          <a
-            alt="Link to ResultsFixer"
-            href="https://fixer.scheiber.dev/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://fixer.scheiber.dev/" target="_blank" rel="noreferrer">
             <img
               className="thumbnail"
               alt="ResultsFixer preview"
@@ -30,7 +23,6 @@ const Portfolio = () => (
             In August 2024, I created{" "}
             <a
               className="text-link"
-              alt="Link to ResultsFixer"
               href="https://fixer.scheiber.dev/"
               target="_blank"
               rel="noreferrer"
@@ -48,31 +40,28 @@ const Portfolio = () => (
         </div>
         <div>
           <a
-            alt="Link to ResultsFixer"
+            className="project-button"
+            aria-label="Visit ResultsFixer website"
             href="https://fixer.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="project-button">Visit website</button>
+            Visit website
           </a>
           <a
-            alt="Link to ResultsFixer on GitHub"
+            className="project-button"
+            aria-label="Read more about ResultsFixer on GitHub"
             href="https://github.com/scheiber/connections-results-fixer"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="project-button">Read more</button>
+            Read more
           </a>
         </div>
       </article>
       <article>
         <div className="project-image worthashot-image">
-          <a
-            alt="Link to Worth a Shot"
-            href="https://worthashot.scheiber.dev/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://worthashot.scheiber.dev/" target="_blank" rel="noreferrer">
             <img
               className="thumbnail"
               alt="Worth a Shot preview"
@@ -86,7 +75,6 @@ const Portfolio = () => (
             in the role of design/UX lead to create and deploy{" "}
             <a
               className="text-link"
-              alt="Link to Worth a Shot"
               href="https://worthashot.scheiber.dev/"
               target="_blank"
               rel="noreferrer"
@@ -103,39 +91,37 @@ const Portfolio = () => (
         </div>
         <div>
           <a
-            alt="Link to Worth a Shot"
+            className="project-button"
+            aria-label="Visit Worth a Shot website"
             href="https://worthashot.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="project-button">Visit website</button>
+            Visit website
           </a>
           <a
-            alt="Link to Worth a Shot on GitHub"
+            className="project-button"
+            aria-label="Read more about Worth a Shot on GitHub"
             href="https://github.com/scheiber/worthashot"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="project-button">Read more</button>
+            Read more
           </a>
           <a
-            alt="Link to Worth a Shot Demo on YouTube"
+            className="project-button"
+            aria-label="Watch the Worth a Shot demo on YouTube"
             href="https://www.youtube.com/watch?v=HdrEIB6mWjU"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="project-button">Watch demo</button>
+            Watch demo
           </a>
         </div>
       </article>
       <article className="center-item">
         <div className="saucesource-image project-image">
-          <a
-            alt="Link to SauceSource"
-            href="https://saucesource.scheiber.dev/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://saucesource.scheiber.dev/" target="_blank" rel="noreferrer">
             <img
               className="thumbnail"
               alt="SauceSource preview"
@@ -147,7 +133,6 @@ const Portfolio = () => (
           In September 2022, I developed{" "}
           <a
             className="text-link"
-            alt="Link to SauceSource"
             href="https://saucesource.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
@@ -162,20 +147,22 @@ const Portfolio = () => (
         </p>
         <div>
           <a
-            alt="Link to SauceSource"
+            className="project-button"
+            aria-label="Visit SauceSource website"
             href="https://saucesource.scheiber.dev/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="project-button">Visit website</button>
+            Visit website
           </a>
           <a
-            alt="Link to Worth a Shot on GitHub"
+            className="project-button"
+            aria-label="Read more about SauceSource on GitHub"
             href="https://github.com/scheiber/saucesource"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="project-button">Read more</button>
+            Read more
           </a>
         </div>
       </article>

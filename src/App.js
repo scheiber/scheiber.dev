@@ -30,7 +30,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/now" element={<Now />} />
-        <Route path="/gallery" element={<Gallery />} />"
+        <Route path="/gallery" element={<Gallery />} />
         {/* Internal Redirects */}
         <Route path="/home" element={<Navigate to="/" />} />
         <Route path="/work" element={<Navigate to="/portfolio" />} />

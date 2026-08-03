@@ -1,7 +1,7 @@
 import "./Motivator.css";
-import { HelmetProvider, Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
+import motivator from "../components/MotivatorList";
 
-const motivator = require("../components/MotivatorList").default;
 const i = Math.floor(Math.random() * motivator.length);
 
 const refreshPage = () => {
@@ -10,11 +10,9 @@ const refreshPage = () => {
 
 const Motivator = () => (
   <div className="motivator">
-    <HelmetProvider>
-      <Helmet>
-        <title>Motivator</title>
-      </Helmet>
-    </HelmetProvider>
+    <Helmet>
+      <title>Motivator</title>
+    </Helmet>
     <h1 className="motivation">{motivator[i]}</h1>
     <div className="affirm-button">
       <button className="another-motivator" onClick={refreshPage}>

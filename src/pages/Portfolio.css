@@ -8,6 +8,7 @@
 }
 
 .project-button {
+  display: inline-block;
   background-color: #000;
   font-family: "ChunkFive";
   border: none;
@@ -23,6 +24,7 @@
   border-radius: 4px;
   font-weight: normal;
   transition: background-color 1s;
+  box-sizing: border-box;
 }
 
 .project-button:hover {

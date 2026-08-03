@@ -1,5 +1,5 @@
 import "./Gallery.css";
-import { HelmetProvider, Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import Gallery from "react-photo-gallery";
 import backgrounds from "./Backgrounds";
 
@@ -9,11 +9,9 @@ const onClick = (event) => {
 
 const GalleryDisplay = () => (
   <div className="gallery">
-    <HelmetProvider>
-      <Helmet>
-        <title>Jonathan Scheiber | Gallery</title>
-      </Helmet>
-    </HelmetProvider>
+    <Helmet>
+      <title>Jonathan Scheiber | Gallery</title>
+    </Helmet>
     <h1 className="title">Gallery</h1>
     <div className="now-text">
       <p>

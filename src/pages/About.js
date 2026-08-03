@@ -1,14 +1,13 @@
 import "./About.css";
 import "../devicon/devicon.min.css";
-import { HelmetProvider, Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const About = () => (
   <div className="about">
-    <HelmetProvider>
-      <Helmet>
-        <title>Jonathan Scheiber | About</title>
-      </Helmet>
-    </HelmetProvider>
+    <Helmet>
+      <title>Jonathan Scheiber | About</title>
+    </Helmet>
     <article>
       <img
         className="headshot"
@@ -196,9 +195,9 @@ const About = () => (
     </div>
     <section>
       <div>
-        <a href="/portfolio">
-          <button className="big-button">Portfolio</button>
-        </a>
+        <Link className="big-button" to="/portfolio">
+          Portfolio
+        </Link>
       </div>
     </section>
   </div>

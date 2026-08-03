@@ -1,19 +1,18 @@
 import "./Error.css";
-import { HelmetProvider, Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const Error = () => (
   <div className="error-page">
-    <HelmetProvider>
-      <Helmet>
-        <title>Jonathan Scheiber | Not Found</title>
-      </Helmet>
-    </HelmetProvider>
+    <Helmet>
+      <title>Jonathan Scheiber | Not Found</title>
+    </Helmet>
     <h1 className="error-title">404: Not Found.</h1>
     <div className="error-grid">
       <div className="error-image">
-        <a href="/">
+        <Link to="/">
           <img alt="Error" className="frustration" src="/images/error.png" />
-        </a>
+        </Link>
       </div>
 
       <div className="error-text">
@@ -21,9 +20,9 @@ const Error = () => (
           The page you are looking for might have been removed, had its named
           changed, or is temporarily unavailable.
         </p>
-        <a href="/">
-          <button className="big-blue-button">Go home</button>
-        </a>
+        <Link className="big-button" to="/">
+          Go home
+        </Link>
       </div>
     </div>
   </div>

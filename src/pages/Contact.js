@@ -1,13 +1,12 @@
 import "./Contact.css";
-import { HelmetProvider, Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
-const About = () => (
+const Contact = () => (
   <div className="contact">
-    <HelmetProvider>
-      <Helmet>
-        <title>Jonathan Scheiber | Contact</title>
-      </Helmet>
-    </HelmetProvider>
+    <Helmet>
+      <title>Jonathan Scheiber | Contact</title>
+    </Helmet>
     <h1 className="title">Contact</h1>
     <div className="contact-text">
       <p>
@@ -31,12 +30,12 @@ const About = () => (
     </div>
     <section>
       <div>
-        <a href="/portfolio">
-          <button className="big-button">Portfolio</button>
-        </a>
+        <Link className="big-button" to="/portfolio">
+          Portfolio
+        </Link>
       </div>
     </section>
   </div>
 );
 
-export default About;
+export default Contact;

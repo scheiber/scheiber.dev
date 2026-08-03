@@ -1,4 +1,5 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => (
   <div className="home">
@@ -13,20 +14,20 @@ const Home = () => (
     </div>
     <section className="links">
       <div>
-        <a href="/about">
-          <button className="big-button">About</button>
-        </a>
-        <a href="/portfolio">
-          <button className="big-button">Portfolio</button>
-        </a>
+        <Link className="big-button" to="/about">
+          About
+        </Link>
+        <Link className="big-button" to="/portfolio">
+          Portfolio
+        </Link>
       </div>
       <div>
-        <a href="/gallery">
-          <button className="big-button">Gallery</button>
-        </a>
-        <a href="/now">
-          <button className="big-button">Now</button>
-        </a>
+        <Link className="big-button" to="/gallery">
+          Gallery
+        </Link>
+        <Link className="big-button" to="/now">
+          Now
+        </Link>
       </div>
     </section>
   </div>
