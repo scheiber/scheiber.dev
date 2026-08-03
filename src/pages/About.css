@@ -37,16 +37,19 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  grid-gap: 5rem;
-  margin: 2em 2em;
+  grid-gap: 2rem;
+  margin: 2em -10%;
   justify-content: center;
   justify-items: center;
 }
 
 .badge-image {
-  height: 250px;
-  width: auto;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
   padding: 10px;
+  box-sizing: border-box;
+  object-fit: contain;
   transition: filter 1s;
 }
 
@@ -154,7 +157,7 @@
         margin: 0px;
   }
   .badge-image {
-    height: 175px;
+    width: 175px;
   }
   .devicon {
     font-size: 90px;
@@ -199,5 +202,15 @@
   }
   .devicon {
     font-size: 120px;
+  }
+}
+
+@media (max-width: 399px) {
+  .skills-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+  }
+  .devicon {
+    font-size: 80px;
   }
 }

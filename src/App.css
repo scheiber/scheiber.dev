@@ -178,6 +178,7 @@ a {
     font-size: 35px;
     margin-block-start: 20px;
     margin-block-end: 20px;
+    overflow-wrap: break-word;
   }
   body {
     background-attachment: scroll;
@@ -187,5 +188,11 @@ a {
     width: 150px;
     padding: 12px 12px;
     margin: 7px;
+  }
+}
+
+@media (max-width: 359px) {
+  .title {
+    font-size: 26px;
   }
 }
