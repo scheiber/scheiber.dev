@@ -12,6 +12,7 @@ import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import NavDrawer from "./components/NavDrawer";
 
 import { useEffect } from "react";
 import Aos from "aos";
@@ -31,6 +32,7 @@ function App() {
         Skip to content
       </a>
       <ScrollToTop />
+      <NavDrawer />
       <Header />
       <main id="main-content">
         <Routes>
