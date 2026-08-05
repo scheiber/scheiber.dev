@@ -3,24 +3,6 @@
   color: #000;
 }
 
-/* Scrollbar */
-
-::-webkit-scrollbar {
-  width: 0.75em;
-}
-
-::-webkit-scrollbar-track {
-  background: #000;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #fff;
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: rgb(0, 128, 255);
-}
-
 .app {
   position: relative;
   min-height: 100vh;
@@ -115,7 +97,7 @@ html {
 }
 
 body {
-background: linear-gradient(
+  background: linear-gradient(
     0deg,
     rgba(10, 10, 11, 1),
     rgb(28, 28, 30),
