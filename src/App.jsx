@@ -1,10 +1,12 @@
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Now from "./pages/Now";
+import Uses from "./pages/Uses";
 import Affirmations from "./pages/Affirmations";
 import Motivator from "./pages/Motivator";
 import Error from "./pages/Error";
@@ -18,6 +20,26 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Jonathan Scheiber",
+  url: "https://scheiber.dev/",
+  image: "https://scheiber.dev/images/headshot.jpg",
+  jobTitle: "Full-Stack Web Developer",
+  description:
+    "Full-stack web developer, Pursuit fellow, CompTIA A+ certified IT professional, cybersecurity evangelist, and accessibility advocate.",
+  sameAs: [
+    "https://github.com/scheiber",
+    "https://www.linkedin.com/in/jonscheiber/",
+    "https://bsky.app/profile/scheiber.dev",
+    "https://qoto.org/@jon",
+    "https://letterboxd.com/js/",
+    "https://www.last.fm/user/JonScheiber",
+    "https://www.goodreads.com/scheiber",
+  ],
+};
+
 function App() {
   useEffect(() => {
     Aos.init({
@@ -28,6 +50,11 @@ function App() {
   }, []);
   return (
     <div className="app" data-aos="fade-down">
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(personSchema)}
+        </script>
+      </Helmet>
       <a className="skip-link" href="#main-content">
         Skip to content
       </a>
@@ -42,6 +69,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/now" element={<Now />} />
+          <Route path="/uses" element={<Uses />} />
           <Route path="/gallery" element={<Gallery />} />
           {/* Internal Redirects */}
           <Route path="/home" element={<Navigate to="/" />} />
@@ -52,6 +80,7 @@ function App() {
           <Route path="/p" element={<Navigate to="/portfolio" />} />
           <Route path="/w" element={<Navigate to="/portfolio" />} />
           <Route path="/n" element={<Navigate to="/now" />} />
+          <Route path="/u" element={<Navigate to="/uses" />} />
           <Route path="/g" element={<Navigate to="/gallery" />} />
           <Route path="/c" element={<Navigate to="/contact" />} />
           {/* External Redirects */}

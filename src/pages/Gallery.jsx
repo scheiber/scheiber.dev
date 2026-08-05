@@ -7,7 +7,7 @@ const GalleryDisplay = () => (
     <Helmet>
       <title>Jonathan Scheiber | Gallery</title>
     </Helmet>
-    <h1 className="title">Gallery</h1>
+    <h2 className="title">Gallery</h2>
     <div className="now-text">
       <p>
         This is a collection of graphics and illustrations that I have created

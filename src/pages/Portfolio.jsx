@@ -6,7 +6,7 @@ const Portfolio = () => (
     <Helmet>
       <title>Jonathan Scheiber | Portfolio</title>
     </Helmet>
-    <h1 className="title">Portfolio</h1>
+    <h2 className="title">Portfolio</h2>
     <section className="portfolio-grid">
       <article>
         <div className="project-image resultsfixer-image">

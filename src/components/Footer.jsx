@@ -1,13 +1,7 @@
-import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => (
   <div className="footer">
-    <div>
-      <Link className="big-button" to="/contact">
-        Contact
-      </Link>
-    </div>
     <div>
       <article>
         <a

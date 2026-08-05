@@ -13,7 +13,7 @@ const Affirmations = () => (
     <Helmet>
       <title>Affirmations</title>
     </Helmet>
-    <h1 className="affirmation">{affirmations[i]}</h1>
+    <h2 className="affirmation">{affirmations[i]}</h2>
     <div className="affirm-button">
       <button className="another" onClick={refreshPage}>
         Another

@@ -27,12 +27,12 @@ const About = () => (
         macOS. I am highly motivated and always looking to improve my skills and
         stay up to date with the latest trends in web development.
       </p>
-      <h1 className="title">Accomplishments</h1>
+      <h2 className="title">Accomplishments</h2>
       <div className="accomplishments-grid">
         <div className="accomplishment">
-          <h2 className="accomplishment-title">
+          <h3 className="accomplishment-title">
             Google IT Support Professional Certificate
-          </h2>
+          </h3>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +44,7 @@ const About = () => (
               alt="Google IT Support Professional Certificate badge"
             />
           </a>
-          <h2 className="accomplishment-date">2025</h2>
+          <p className="accomplishment-date">2025</p>
           <p>
             Completed a comprehensive program that provided me with the skills
             and knowledge needed to excel in IT support roles, including
@@ -53,7 +53,7 @@ const About = () => (
           </p>
         </div>
         <div className="accomplishment">
-          <h2 className="accomplishment-title">CompTIA A+ Certification</h2>
+          <h3 className="accomplishment-title">CompTIA A+ Certification</h3>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const About = () => (
               alt="CompTIA A+ Certification badge"
             />
           </a>
-          <h2 className="accomplishment-date">2016–2028 (Renewed)</h2>
+          <p className="accomplishment-date">2016–2028 (Renewed)</p>
           <p>
             Earned an industry-standard certification in computer hardware,
             software, networking, and IT support, demonstrating my ability to
@@ -73,7 +73,7 @@ const About = () => (
           </p>
         </div>
         <div className="accomplishment">
-          <h2 className="accomplishment-title">The Pursuit Fellowship</h2>
+          <h3 className="accomplishment-title">The Pursuit Fellowship</h3>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -85,7 +85,7 @@ const About = () => (
               alt="Pursuit Fellowship badge"
             />
           </a>
-          <h2 className="accomplishment-date">2021–2022</h2>
+          <p className="accomplishment-date">2021–2022</p>
           <p>
             Participated in a 12-month software engineering training program
             covering JavaScript, HTML, CSS, Node.js, Express, React/Redux,
@@ -94,7 +94,7 @@ const About = () => (
           </p>
         </div>
       </div>
-      <h1 className="title">Skills</h1>
+      <h2 className="title">Skills</h2>
       <div className="skills-grid">
         <i
           title="JavsScript"

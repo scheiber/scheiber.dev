@@ -13,7 +13,7 @@ const Motivator = () => (
     <Helmet>
       <title>Motivator</title>
     </Helmet>
-    <h1 className="motivation">{motivator[i]}</h1>
+    <h2 className="motivation">{motivator[i]}</h2>
     <div className="affirm-button">
       <button className="another-motivator" onClick={refreshPage}>
         Another

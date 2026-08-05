@@ -29,6 +29,14 @@ const Home = () => (
           Now
         </Link>
       </div>
+      <div>
+        <Link className="big-button" to="/uses">
+          Uses
+        </Link>
+        <Link className="big-button" to="/contact">
+          Contact
+        </Link>
+      </div>
     </section>
   </div>
 );

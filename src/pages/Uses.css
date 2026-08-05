@@ -1,0 +1,97 @@
+.uses-text {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+  .uses-text {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .uses-text {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+/* Software */
+
+.uses-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  margin: 2em 2em;
+  justify-content: center;
+  justify-items: center;
+}
+
+.uses-devicon {
+  font-size: 80px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .uses-devicon:hover {
+    color: rgb(126, 210, 255);
+    transition: color 0.5s;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+  .uses-devicon {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .uses-tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .uses-devicon {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 399px) {
+  .uses-tools-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .uses-devicon {
+    font-size: 70px;
+  }
+}
+
+/* Hardware / Elsewhere */
+
+.uses-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin: 2em 2em;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.uses-item-title {
+  font-family: "ChunkFive";
+  font-size: 22px;
+  font-weight: normal;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+  .uses-grid {
+    grid-gap: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .uses-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

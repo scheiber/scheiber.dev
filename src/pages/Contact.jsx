@@ -7,7 +7,7 @@ const Contact = () => (
     <Helmet>
       <title>Jonathan Scheiber | Contact</title>
     </Helmet>
-    <h1 className="title">Contact</h1>
+    <h2 className="title">Contact</h2>
     <div className="contact-text">
       <p>
         Want to get in touch? Email me at{" "}

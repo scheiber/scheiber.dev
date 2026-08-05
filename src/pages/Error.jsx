@@ -7,7 +7,7 @@ const Error = () => (
     <Helmet>
       <title>Jonathan Scheiber | Not Found</title>
     </Helmet>
-    <h1 className="error-title">404: Not Found.</h1>
+    <h2 className="error-title">404: Not Found.</h2>
     <div className="error-grid">
       <div className="error-image">
         <Link to="/">

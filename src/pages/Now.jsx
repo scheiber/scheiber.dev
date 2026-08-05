@@ -6,7 +6,7 @@ const Now = () => (
     <Helmet>
       <title>Jonathan Scheiber | Now</title>
     </Helmet>
-    <h1 className="title">What I'm Focused on Now</h1>
+    <h2 className="title">What I'm Focused on Now</h2>
     <div className="now-text">
       <p>
         This page is inspired by{" "}
@@ -30,7 +30,7 @@ const Now = () => (
         . The purpose of this page is to share what I am currently focused on at
         this point in my life.
       </p>
-      <h1 className="subheader">Learning</h1>
+      <h3 className="subheader">Learning</h3>
       <div className="learning-grid">
         <div>
           <a href="https://tryhackme.com/" target="_blank" rel="noopener noreferrer">
@@ -117,7 +117,7 @@ const Now = () => (
       </div>
       <div className="hobbies-grid">
         <div>
-          <h1 className="subheader">Watching</h1>
+          <h3 className="subheader">Watching</h3>
           <a href="https://letterboxd.com/js/" target="_blank" rel="noopener noreferrer">
             <img
               className="logo"
@@ -141,7 +141,7 @@ const Now = () => (
           </p>
         </div>
         <div>
-          <h1 className="subheader">Listening</h1>
+          <h3 className="subheader">Listening</h3>
           <a
             href="https://www.last.fm/user/JonScheiber"
             target="_blank"
@@ -169,7 +169,7 @@ const Now = () => (
           </p>
         </div>
         <div>
-          <h1 className="subheader">Reading</h1>
+          <h3 className="subheader">Reading</h3>
           <a
             href="https://www.goodreads.com/scheiber"
             target="_blank"
