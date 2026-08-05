@@ -9,8 +9,63 @@ const Portfolio = () => (
     <h2 className="title">Portfolio</h2>
     <section className="portfolio-grid">
       <article>
+        <div className="project-image tzcatalogue-image">
+          <a href="https://tz.scheiber.dev/" target="_blank" rel="noreferrer">
+            <img
+              className="thumbnail"
+              alt="Twilight Zone Catalogue preview"
+              src="./images/projects/tzcatalogue.png"
+            />
+          </a>
+        </div>
+        <div>
+          <p className="portfolio-description">
+            In April 2026, I created{" "}
+            <a
+              className="text-link"
+              href="https://tz.scheiber.dev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              The Twilight Zone Catalogue
+            </a>
+            , a web application for exploring the classic television series "The
+            Twilight Zone." The site is a complete interactive catalogue of the
+            classic original series that allows users to browse, search, filter,
+            and track all 156 episodes across five seasons from 1959 to 1964. I
+            was responsible for creating graphic and layout elements, branding,
+            writing documentation, implementing features, optimizing for mobile,
+            and enhancing user experience.
+          </p>
+        </div>
+        <div>
+          <a
+            className="project-button"
+            aria-label="Visit The Twilight Zone Catalogue website"
+            href="https://tz.scheiber.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visit website
+          </a>
+          <a
+            className="project-button"
+            aria-label="Read more about The Twilight Zone Catalogue on GitHub"
+            href="https://github.com/scheiber/twilight-zone-catalogue"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read more
+          </a>
+        </div>
+      </article>
+      <article>
         <div className="project-image resultsfixer-image">
-          <a href="https://fixer.scheiber.dev/" target="_blank" rel="noreferrer">
+          <a
+            href="https://fixer.scheiber.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="thumbnail"
               alt="ResultsFixer preview"
@@ -61,7 +116,11 @@ const Portfolio = () => (
       </article>
       <article>
         <div className="project-image worthashot-image">
-          <a href="https://worthashot.scheiber.dev/" target="_blank" rel="noreferrer">
+          <a
+            href="https://worthashot.scheiber.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="thumbnail"
               alt="Worth a Shot preview"
@@ -121,7 +180,11 @@ const Portfolio = () => (
       </article>
       <article className="center-item">
         <div className="saucesource-image project-image">
-          <a href="https://saucesource.scheiber.dev/" target="_blank" rel="noreferrer">
+          <a
+            href="https://saucesource.scheiber.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="thumbnail"
               alt="SauceSource preview"
