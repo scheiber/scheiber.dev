@@ -15,6 +15,8 @@ const Portfolio = () => (
               className="thumbnail"
               alt="Twilight Zone Catalogue preview"
               src="./images/projects/tzcatalogue.png"
+              loading="lazy"
+              decoding="async"
             />
           </a>
         </div>
@@ -70,6 +72,8 @@ const Portfolio = () => (
               className="thumbnail"
               alt="ResultsFixer preview"
               src="./images/projects/resultsfixer.png"
+              loading="lazy"
+              decoding="async"
             />
           </a>
         </div>
@@ -125,6 +129,8 @@ const Portfolio = () => (
               className="thumbnail"
               alt="Worth a Shot preview"
               src="./images/projects/worthashot.png"
+              loading="lazy"
+              decoding="async"
             />
           </a>
         </div>
@@ -189,6 +195,8 @@ const Portfolio = () => (
               className="thumbnail"
               alt="SauceSource preview"
               src="./images/projects/saucesource.png"
+              loading="lazy"
+              decoding="async"
             />
           </a>
         </div>

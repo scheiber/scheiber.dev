@@ -83,13 +83,6 @@ function App() {
           <Route path="/u" element={<Navigate to="/uses" />} />
           <Route path="/g" element={<Navigate to="/gallery" />} />
           <Route path="/c" element={<Navigate to="/contact" />} />
-          {/* External Redirects */}
-          <Route path="/github" element={<GitHub />} />
-          <Route path="/gh" element={<GitHub />} />
-          <Route path="/linkedin" element={<LinkedIn />} />
-          <Route path="/li" element={<LinkedIn />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/r" element={<Resume />} />
           {/* Side Projects */}
           <Route path="/affirmations" element={<Affirmations />} />
           <Route path="/motivator" element={<Motivator />} />
@@ -101,22 +94,5 @@ function App() {
     </div>
   );
 }
-
-const LinkedIn = () => {
-  window.location.replace("https://www.linkedin.com/in/jonscheiber/");
-  return null;
-};
-
-const GitHub = () => {
-  window.location.replace("https://github.com/scheiber");
-  return null;
-};
-
-const Resume = () => {
-  window.location.replace(
-    "https://docs.google.com/document/d/1ZdYIX6EWmPrUtYYgePIHYFqvxWKvmTIo/edit"
-  );
-  return null;
-};
 
 export default App;

@@ -2,7 +2,7 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Black.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Black.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Black.webp",
     width: 480,
     height: 270,
     alt: "Instructor Appreciation Week 2022 background (black)",
@@ -10,7 +10,7 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Blue.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Blue.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Blue.webp",
     width: 480,
     height: 270,
     alt: "Instructor Appreciation Week 2022 background (blue)",
@@ -18,7 +18,7 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Gray.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Gray.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2022_Gray.webp",
     width: 480,
     height: 270,
     alt: "Instructor Appreciation Week 2022 background (gray)",
@@ -26,7 +26,7 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Black.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Black.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Black.webp",
     width: 480,
     height: 270,
     alt: "Instructor Appreciation Week 2023 background (black)",
@@ -34,7 +34,7 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Blue.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Blue.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Blue.webp",
     width: 480,
     height: 270,
     alt: "Instructor Appreciation Week 2023 background (blue)",
@@ -42,14 +42,14 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Gray.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Gray.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Instructor_Appreciation_Week_2023_Gray.webp",
     width: 480,
     height: 270,
     alt: "Instructor Appreciation Week 2023 background (gray)",
   },
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Pursuit_AAPI.png",
-    thumb: "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_AAPI.png",
+    thumb: "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_AAPI.webp",
     width: 480,
     height: 270,
     alt: "Pursuit AAPI Heritage Month background",
@@ -57,7 +57,7 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Pursuit_Latin_Heritage_Month_EN.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Latin_Heritage_Month_EN.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Latin_Heritage_Month_EN.webp",
     width: 480,
     height: 270,
     alt: "Pursuit Latin Heritage Month background (English)",
@@ -65,7 +65,7 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Pursuit_Latin_Heritage_Month_ES.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Latin_Heritage_Month_ES.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Latin_Heritage_Month_ES.webp",
     width: 480,
     height: 270,
     alt: "Pursuit Latin Heritage Month background (Spanish)",
@@ -73,14 +73,14 @@ const backgrounds = [
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Pursuit_Black_History_Month.png",
     thumb:
-      "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Black_History_Month.png",
+      "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Black_History_Month.webp",
     width: 480,
     height: 270,
     alt: "Pursuit Black History Month background",
   },
   {
     src: "/images/backgrounds/Jonathan_Scheiber_Pursuit_Pride.png",
-    thumb: "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Pride.png",
+    thumb: "/images/backgrounds/thumbs/Jonathan_Scheiber_Pursuit_Pride.webp",
     width: 480,
     height: 270,
     alt: "Pursuit Pride background",

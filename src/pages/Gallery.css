@@ -8,6 +8,20 @@
   gap: 8px;
 }
 
+.tile-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.tile-button:focus-visible {
+  outline: 2px solid rgb(126, 210, 255);
+  outline-offset: 2px;
+}
+
 .tile {
   display: block;
   width: 100%;
@@ -16,7 +30,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .tile:hover {
+  .tile-button:hover .tile {
     filter: saturate(150%) brightness(150%);
   }
 }
