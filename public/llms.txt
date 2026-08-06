@@ -1,0 +1,25 @@
+# Jonathan Scheiber
+
+> Personal portfolio and website of Jonathan Scheiber, a full-stack web developer, Pursuit Fellowship graduate, Google IT Support/CompTIA A+ dual-certified IT professional, cybersecurity evangelist, and accessibility advocate based in the United States.
+
+Jonathan builds dynamic, user-friendly websites and applications using JavaScript, HTML, CSS, React, Express, PostgreSQL, and Node.js. This site is a React single-page app; the pages below are client-side routes.
+
+## Pages
+
+- [About](https://scheiber.dev/about): Background, skills (JavaScript, React, Node.js, Express, PostgreSQL, Git, and more), and accomplishments, including the Google IT Support Professional Certificate, CompTIA A+ Certification, and the Pursuit Fellowship.
+- [Portfolio](https://scheiber.dev/portfolio): Case studies for projects including The Twilight Zone Catalogue (tz.scheiber.dev), ResultsFixer (fixer.scheiber.dev), Worth a Shot (worthashot.scheiber.dev), and SauceSource (saucesource.scheiber.dev), each with links to the live site and source code on GitHub.
+- [Gallery](https://scheiber.dev/gallery): Graphics and illustrations Jonathan has created throughout his career, viewable full-size in a lightbox.
+- [Now](https://scheiber.dev/now): What Jonathan is currently focused on, including cybersecurity training on TryHackMe and Coursera certificate programs, plus what he's watching (Letterboxd), listening to (Last.fm), and reading (Goodreads).
+- [Uses](https://scheiber.dev/uses): The hardware and software in Jonathan's daily toolkit.
+- [Contact](https://scheiber.dev/contact): How to get in touch by email.
+
+## Resources
+
+- [Resume](https://resume.scheiber.dev): Jonathan's resume.
+- [Sitemap](https://scheiber.dev/sitemap.xml): XML sitemap of the site.
+
+## Elsewhere
+
+- [GitHub](https://github.com/scheiber)
+- [LinkedIn](https://www.linkedin.com/in/jonscheiber/)
+- [Bluesky](https://bsky.app/profile/scheiber.dev)
