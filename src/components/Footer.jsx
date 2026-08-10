@@ -13,7 +13,7 @@ const Footer = () => (
             className="icon"
             alt="GitHub"
             title="GitHub"
-            src="/images/icons/github.png"
+            src="/images/icons/github.svg"
           />
         </a>
         <a
@@ -25,7 +25,7 @@ const Footer = () => (
             className="icon"
             alt="LinkedIn"
             title="LinkedIn"
-            src="/images/icons/linkedin.png"
+            src="/images/icons/linkedin.svg"
           />
         </a>
         <a
@@ -37,7 +37,7 @@ const Footer = () => (
             className="icon"
             alt="Bluesky"
             title="Bluesky"
-            src="/images/icons/bluesky.png"
+            src="/images/icons/bluesky.svg"
           />
         </a>
       </article>

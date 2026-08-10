@@ -8,6 +8,8 @@
 .icon {
   padding: 10px;
   transition: filter 1s;
+  height: 60px;
+  width: 60px;
 }
 
 @media (hover: hover) and (pointer: fine) {
