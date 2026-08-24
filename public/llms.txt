@@ -6,12 +6,20 @@ Jonathan builds dynamic, user-friendly websites and applications using JavaScrip
 
 ## Pages
 
-- [About](https://scheiber.dev/about): Background, skills (JavaScript, React, Node.js, Express, PostgreSQL, Git, and more), and accomplishments, including the Google IT Support Professional Certificate, CompTIA A+ Certification, and the Pursuit Fellowship.
-- [Portfolio](https://scheiber.dev/portfolio): Case studies for projects including The Twilight Zone Catalogue (tz.scheiber.dev), ResultsFixer (fixer.scheiber.dev), Worth a Shot (worthashot.scheiber.dev), and SauceSource (saucesource.scheiber.dev), each with links to the live site and source code on GitHub.
+- [Home](https://scheiber.dev/): Landing page with a headline summary (Pursuit Fellow, Full-Stack Web Developer, Google IT Support/CompTIA A+ Dual Certified, Cybersecurity Evangelist, Accessibility Advocate) and links to the pages below.
+- [About](https://scheiber.dev/about): Background, skills (JavaScript, HTML, CSS, React, Express, PostgreSQL, APIs, Node.js, Git, Figma, Linux, macOS, and more), and accomplishments, including the Google IT Support Professional Certificate (2025), CompTIA A+ Certification (2016–2028, renewed), and the Pursuit Fellowship (2021–2022).
+- [Portfolio](https://scheiber.dev/portfolio): Case studies for four projects — see Portfolio Projects below — each with links to the live site and source code on GitHub.
 - [Gallery](https://scheiber.dev/gallery): Graphics and illustrations Jonathan has created throughout his career, viewable full-size in a lightbox.
-- [Now](https://scheiber.dev/now): What Jonathan is currently focused on, including cybersecurity training on TryHackMe and Coursera certificate programs, plus what he's watching (Letterboxd), listening to (Last.fm), and reading (Goodreads).
-- [Uses](https://scheiber.dev/uses): The hardware and software in Jonathan's daily toolkit.
-- [Contact](https://scheiber.dev/contact): How to get in touch by email.
+- [Now](https://scheiber.dev/now): What Jonathan is currently focused on, including cybersecurity training on TryHackMe and Coursera certificate programs (Google UX Design, Google IT Support, Microsoft Cybersecurity Analyst), plus what he's watching (Letterboxd), listening to (Last.fm), and reading (Goodreads).
+- [Uses](https://scheiber.dev/uses): The hardware and software in Jonathan's daily toolkit — currently a MacBook Air (2025, M4), VS Code, Git, Figma, Photoshop, Docker, Trello, Firefox, and iTerm2.
+- [Contact](https://scheiber.dev/contact): How to get in touch — email jonathan@scheiber.dev.
+
+## Portfolio Projects
+
+- [The Twilight Zone Catalogue](https://tz.scheiber.dev/) ([source](https://github.com/scheiber/twilight-zone-catalogue)): Interactive catalogue of the original "The Twilight Zone" series — browse, search, filter, and track all 156 episodes across five seasons (1959–1964). Built April 2026.
+- [ResultsFixer](https://fixer.scheiber.dev/) ([source](https://github.com/scheiber/connections-results-fixer)): Formats copied game results (e.g. Connections, Strands) by adding trailing spaces so lines "stack" correctly when shared on Markdown platforms like Reddit and Lemmy. Built August 2024.
+- [Worth a Shot](https://worthashot.scheiber.dev/) ([source](https://github.com/scheiber/worthashot), [demo](https://www.youtube.com/watch?v=HdrEIB6mWjU)): Finds nightlife establishments and recommends drinks; built with React, Express, PostgreSQL, and the Yelp Fusion API. Built December 2022 with a two-person team; Jonathan served as design/UX lead.
+- [SauceSource](https://saucesource.scheiber.dev/) ([source](https://github.com/scheiber/saucesource)): Hot sauce reference catalog app built with React, Express, and PostgreSQL. Built September 2022.
 
 ## Resources
 
@@ -23,3 +31,8 @@ Jonathan builds dynamic, user-friendly websites and applications using JavaScrip
 - [GitHub](https://github.com/scheiber)
 - [LinkedIn](https://www.linkedin.com/in/jonscheiber/)
 - [Bluesky](https://bsky.app/profile/scheiber.dev)
+
+## Optional
+
+- [Affirmations](https://scheiber.dev/affirmations): A random daily-affirmation generator.
+- [Motivator](https://scheiber.dev/motivator): A random motivational-quote generator.
