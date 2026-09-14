@@ -57,7 +57,7 @@ const About = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.certmetrics.com/comptia/public/verification.aspx?code=TNGZ15T3EDEEYL8C"
+            href="https://cp.certmetrics.com/comptia/en/public/verify/credential/TNGZ15T3EDEEYL8C"
           >
             <img
               className="badge-image badge-comptia"
