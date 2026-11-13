@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => (
   <div className="home">
     <div className="headline-box">
-      <div className="headline">Pursuit Fellow</div>
+      <div className="headline">Technologist</div>
       <div className="headline">Full-Stack Web Developer</div>
       <div className="headline">
         Google IT Support/CompTIA A+ Dual Certified
