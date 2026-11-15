@@ -23,31 +23,6 @@ const Uses = () => (
         tools they use every day. Here's what's currently in my toolkit.
       </p>
 
-      <h3 className="subheader">Software</h3>
-      <div className="uses-tools-grid">
-        <i
-          title="Visual Studio Code"
-          className="devicon uses-devicon devicon-vscode-plain"
-        />
-        <i
-          title="Git"
-          className="devicon uses-devicon devicon-git-plain-wordmark"
-        />
-        <i title="Figma" className="devicon uses-devicon devicon-figma-plain" />
-        <i
-          title="Adobe Photoshop"
-          className="devicon uses-devicon devicon-photoshop-line"
-        />
-        <i
-          title="Docker"
-          className="devicon uses-devicon devicon-docker-plain-wordmark"
-        />
-        <i
-          title="Trello"
-          className="devicon uses-devicon devicon-trello-plain-wordmark"
-        />
-      </div>
-
       <h3 className="subheader">Hardware</h3>
       <div className="uses-grid">
         <div className="uses-item">
@@ -56,8 +31,8 @@ const Uses = () => (
             Apple MacBook Air (2025, M4, 13", 16GB RAM, 512GB SSD)
             <br />
             <br />
-            Lenovo ThinkPad T14s Gen 2 (2021, AMD Ryzen 7 PRO 5850U, 14", 32GB RAM,
-            1TB SSD){" "}
+            Lenovo ThinkPad T14s Gen 2 (2021, AMD Ryzen 7 PRO 5850U, 14", 32GB
+            RAM, 1TB SSD){" "}
           </p>
         </div>
         <div className="uses-item">
@@ -67,6 +42,9 @@ const Uses = () => (
             <br />
             <br />
             Logitech MX Master 4
+            <br />
+            <br />
+            Logitech M240
           </p>
         </div>
         <div className="uses-item">
