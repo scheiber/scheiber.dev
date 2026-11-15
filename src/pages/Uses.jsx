@@ -51,12 +51,23 @@ const Uses = () => (
       <h3 className="subheader">Hardware</h3>
       <div className="uses-grid">
         <div className="uses-item">
-          <h4 className="uses-item-title">Computer</h4>
-          <p>Apple MacBook Air (2025, M4, 13-inch, 16GB RAM, 512GB SSD)</p>
+          <h4 className="uses-item-title">Computers</h4>
+          <p>
+            Apple MacBook Air (2025, M4, 13", 16GB RAM, 512GB SSD)
+            <br />
+            <br />
+            Lenovo ThinkPad T14s Gen 2 (2021, AMD Ryzen 7 PRO 5850U, 14", 32GB RAM,
+            1TB SSD){" "}
+          </p>
         </div>
         <div className="uses-item">
           <h4 className="uses-item-title">Keyboard &amp; Mouse</h4>
-          <p>Apple Wireless Keyboard and Logitech M720 Triathlon</p>
+          <p>
+            Apple Wireless Keyboard
+            <br />
+            <br />
+            Logitech MX Master 4
+          </p>
         </div>
         <div className="uses-item">
           <h4 className="uses-item-title">Monitor</h4>
@@ -64,8 +75,7 @@ const Uses = () => (
         </div>
       </div>
 
-      {/* Replace the placeholders below with your actual setup. */}
-      <h3 className="subheader">Elsewhere</h3>
+      <h3 className="subheader">Software</h3>
       <div className="uses-grid">
         <div className="uses-item">
           <h4 className="uses-item-title">Browser</h4>
